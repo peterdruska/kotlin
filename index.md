@@ -18,3 +18,10 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 ### Základné nastavenie IntelliJ IDEA
 
 V IntelliJ IDEA potrebujeme po spustení urobiť pár základných úkonov, aby sme mohli napísať prvý program v jazyku Kotlin.
+
+![New Project](/images/NewProject.png)
+
+1. Ako **Project SDK** vybrať konkrétnu verziu Javy, ktorá by v IntelliJ IDEA mala byť už doinštalovaná.
+2. Zaškrtnúť voľbu **Kotlin (Java)**
+3. **Use Library** by malo obsahovať *KotlinJavaRuntime*
+4. **Next**
