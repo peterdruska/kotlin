@@ -61,3 +61,5 @@ Potom zadáme meno nového súboru, napr. **HelloWorld** a potvrdíme **OK**.
 IntelliJ IDEA teraz pripraví a otvorí nový súbor na úpravu.
 
 ![Edit new file](images/EditFile.png)
+
+V ďalšej časti sa dozvieme, ako vyskúšať prvý program.
