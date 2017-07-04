@@ -57,3 +57,7 @@ Vyznačíme ju a klikneme pravým tlačidlom. Po zobrazení ponuky vyberieme `Ne
 Potom zadáme meno nového súboru, napr. **HelloWorld** a potvrdíme **OK**.
 
 ![File Name](images/FileName.png)
+
+IntelliJ IDEA teraz pripraví a otvorí nový súbor na úpravu.
+
+![Edit new file](images/EditFile.png)
