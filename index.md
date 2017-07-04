@@ -147,3 +147,17 @@ println("Toto je super reťazec 3000!")
 Všetko, čo je uzavreté do úvodzoviek sa chápe ako reťazec, čiže usporiadná množina znakov. Uvedené číslo 3000 je v tomto príklade pre jazyk Kotlin tiež reťazec, nie číslo.
 
 Spustenie tohto programu vypíše text „**Toto je super reťazec 3000!**“.
+
+## Konštanty
+
+## Premenné
+
+## Reťazce
+
+## Podmienky
+
+## Polia, zoznamy a cykly
+
+## Funkcie (metódy)
+
+## Objekty a triedy
