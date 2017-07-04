@@ -74,6 +74,6 @@ IntelliJ IDEA automaticky doplní hlavnú funkciu, do ktorej budeme písať aký
 
 Aby sme ten prvý program skúsili, do spomínaných zložených zátvoriek napíšeme tento príkaz:
 
-```
+```kotlin
 println("Toto je môj prvý program v jazyku Kotlin!")
 ```
