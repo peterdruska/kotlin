@@ -104,8 +104,24 @@ O funkcii `println()` si povieme viac neskôr.
 
 Pri programovaní budeme vždy pracovať s typmi údajov. V bežnom živote sa môžeme stretnúť s číslami, s textami a podobne. V jazyku Kotlin to je podobné a zo začiatku budeme rozlišovať tri jednoduché dátové typy: **textové reťazce** (`String`), **celé** čísla (`Int`), **reálne čísla** (`Double`).
 
-### String
+### Int
+
+Celé čísla sú jednoduché na rýchle pochopenie. Skúsme do funkcie `main` napísať tento zdrojový kód:
+
+```kotlin
+println(3 + 4)
+```
+
+Funkcia `main` bude teda vyzerať takto:
+
+```kotlin
+fun main(args: Array<String>) { 
+    println(3 + 4)
+}
+```
+
+Keď program spustíme, výsledok bude vypísaný do konzoly.
 
 ### Double
 
-### Int
+### String
