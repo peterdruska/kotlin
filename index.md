@@ -106,7 +106,7 @@ Pri programovaní budeme vždy pracovať s typmi údajov. V bežnom živote sa m
 
 ### Int
 
-Celé čísla sú jednoduché na rýchle pochopenie. Skúsme do funkcie `main` napísať tento zdrojový kód:
+Celé čísla sú jednoduché na rýchle pochopenie. Píšu sa bez desatinnej bodky. Skúsme do funkcie `main` napísať tento zdrojový kód:
 
 ```kotlin
 println(3 + 4)
@@ -120,8 +120,28 @@ fun main(args: Array<String>) {
 }
 ```
 
-Keď program spustíme, výsledok bude vypísaný do konzoly.
+Keď program spustíme, výsledok bude vypísaný do konzoly, výsledok bude **7**. Rovnakým spôsobom sa dajú robiť akékoľvek základné matematické operácie.
 
 ### Double
 
+Reálne čísla sa zapisujú s desatinnou bodkou. Skúsme napr.:
+
+```kotlin
+fun main(args: Array<String>) { 
+    println(2.9 + 4.1)
+}
+```
+
+Výsledok bude **7.0**.
+
+Rozdiel medzi celým a reálnym číslom v programovacom jazyku Kotlin je dosť podstatný. Náš mozog tie čísla berie za rovnaké, pre počítače sú však odlišné a inak k nim musíme pristupovať. Napr. pri celočíselnom delení so zvyškom musíme byť v tomto veľmi opatrní.
+
 ### String
+
+Ďalším jednoduchým typom sú reťazce. S nimi sme sa stretli pri prvej ukážke. Každý reťazec sa totiž zapisuje do úvodzoviek. Keď ho chceme vypísať do konzoly, použijeme takýto zápis:
+
+```kotlin
+println("Toto je super reťazec 3000!")
+```
+
+Všetko, čo je uzavreté do úvodzoviek sa chápe ako reťazec, čiže usporiadná množina znakov. Uvedené číslo 3000 je v tomto príklade pre jazyk Kotlin tiež reťazec, nie číslo.
