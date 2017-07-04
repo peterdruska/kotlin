@@ -62,4 +62,4 @@ IntelliJ IDEA teraz pripraví a otvorí nový súbor na úpravu.
 
 ![Edit new file](images/EditFile.png)
 
-V ďalšej časti sa dozvieme, ako vyskúšať prvý program.
+[V ďalšej časti sa dozvieme, ako vyskúšať prvý program](prvyProgram.md).
