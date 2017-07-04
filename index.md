@@ -25,3 +25,7 @@ V IntelliJ IDEA potrebujeme po spustení urobiť pár základných úkonov, aby 
 2. V časti **Additional Libraries and Frameworks** zaškrtnúť voľbu **Kotlin (Java)**
 3. **Use Library** by malo obsahovať *KotlinJavaRuntime*
 4. **Next**
+
+Ďalším krokom je výber šablóny. Tento krok teraz preskakujeme, vôbec nás nezaujíma, nakoľko začneme s jazykom Kotlin *na čistom papieri*, ako sa hovorí.
+
+![Choose Template](images/Template.png)
