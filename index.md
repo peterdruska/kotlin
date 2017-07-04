@@ -85,3 +85,17 @@ fun main(args: Array<String>) {
     println("Toto je môj prvý program v jazyku Kotlin!")
 }
 ```
+
+Pre spustenie programu pravým tlačidlom klikneme do programu, ktorý sme práve napísali a vyberiem **Run HelloWorldKt**.
+
+![Run program](screencasts/runProgram.gif)
+
+Výsledok vidíme v dolnej časti, v tzv. konzole.
+
+![Console](images/Console.png)
+
+Kde sa vypísal text *Toto je môj prvý program v jazyku Kotlin!*
+
+![Console](images/Console2.png)
+
+O funkcii `println()` si povieme viac neskôr.
