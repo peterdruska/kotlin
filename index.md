@@ -35,3 +35,5 @@ Zadáme **Next**.
 V ďalšom kroku zadáme meno nového projektu. V ukážke to je **Hello World** a zadáme **Finish**.
 
 Teraz sa otvorí obrazovka projektu *Hello World*.
+
+![Project](images/Project.png)
