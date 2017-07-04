@@ -53,3 +53,7 @@ Zatiaľ nás bude zaujímať zo štruktúry projektu zložka `/src/`.
 Vyznačíme ju a klikneme pravým tlačidlom. Po zobrazení ponuky vyberieme `New > Kotlin File/Class`.
 
 ![Kotlin File](images/KotlinFile.png)
+
+Potom zadáme meno nového súboru, napr. **HelloWorld** a potvrdíme **OK**.
+
+![File Name](images/FileName.png)
