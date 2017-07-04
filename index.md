@@ -64,4 +64,4 @@ IntelliJ IDEA teraz pripraví a otvorí nový súbor na úpravu.
 
 ## Prvý program
 
-![Main Function](screencasts/mainFunction.mov)
+![Main Function](screencasts/mainFunction.gif)
