@@ -41,3 +41,5 @@ Teraz sa otvorí obrazovka projektu *Hello World*.
 ![Project](images/Project.png)
 
 Teraz je dôležité nastaviť jazyk Kotlin v projekte pomocou **Tools > Kotlin > Configure Kotlin in Project > All modules containing Kotlin files**. Zvyšok ponecháme tak, ako je a potvrdíme **OK**.
+
+![Configure Kotlin](images/ConfigureKotlin.png)
