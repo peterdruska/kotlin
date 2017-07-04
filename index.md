@@ -17,7 +17,7 @@ Na základnú prácu a spoznanie sa s jazykom Kotlin budeme používať softvér
 
 V IntelliJ IDEA potrebujeme po spustení urobiť pár základných úkonov, aby sme mohli napísať prvý program v jazyku Kotlin.
 
-[![New Project](/images/NewProject.png)](kotlin/images/NewProject.png)
+[![New Project](/images/NewProject.png)](images/NewProject.png)
 
 1. Ako **Project SDK** vybrať konkrétnu verziu Javy, ktorá by v IntelliJ IDEA mala byť už doinštalovaná.
 2. V časti **Additional Libraries and Frameworks** zaškrtnúť voľbu **Kotlin (Java)**
@@ -26,11 +26,11 @@ V IntelliJ IDEA potrebujeme po spustení urobiť pár základných úkonov, aby 
 
 Ďalším krokom je výber šablóny. Tento krok teraz preskakujeme, vôbec nás nezaujíma, nakoľko začneme s jazykom Kotlin *na čistom papieri*, ako sa hovorí.
 
-[![Choose Template](images/Template.png)](kotlin/images/Template.png)
+[![Choose Template](images/Template.png)](images/Template.png)
 
 Zadáme **Next**.
 
-[![Project Name](images/Name.png)](kotlin/images/Name.png)
+[![Project Name](images/Name.png)](images/Name.png)
 
 V ďalšom kroku zadáme meno nového projektu. V ukážke to je **Hello World** a zadáme **Finish**.
 
@@ -38,7 +38,7 @@ V ďalšom kroku zadáme meno nového projektu. V ukážke to je **Hello World**
 
 Teraz sa otvorí obrazovka projektu *Hello World*.
 
-[![Project](images/Project.png)](kotlin/images/Project.png)
+[![Project](images/Project.png)](images/Project.png)
 
 Teraz je dôležité nastaviť jazyk Kotlin v projekte pomocou **Tools > Kotlin > Configure Kotlin in Project > All modules containing Kotlin files**. Zvyšok ponecháme tak, ako je a potvrdíme **OK**.
 
@@ -48,19 +48,19 @@ Teraz je dôležité nastaviť jazyk Kotlin v projekte pomocou **Tools > Kotlin 
 
 Zatiaľ nás bude zaujímať zo štruktúry projektu zložka `/src/`.
 
-[![Src](images/Src.png)](kotlin/images/Src.png)
+[![Src](images/Src.png)](images/Src.png)
 
 Vyznačíme ju a klikneme pravým tlačidlom. Po zobrazení ponuky vyberieme `New > Kotlin File/Class`.
 
-[![Kotlin File](images/KotlinFile.png)](kotlin/images/KotlinFile.png)
+[![Kotlin File](images/KotlinFile.png)](images/KotlinFile.png)
 
 Potom zadáme meno nového súboru, napr. **HelloWorld** a potvrdíme **OK**.
 
-[![File Name](images/FileName.png)](kotlin/images/FileName.png)
+[![File Name](images/FileName.png)](images/FileName.png)
 
 IntelliJ IDEA teraz pripraví a otvorí nový súbor na úpravu.
 
-[![Edit new file](images/EditFile.png)](kotlin/images/EditFile.png)
+[![Edit new file](images/EditFile.png)](images/EditFile.png)
 
 ## Prvý program
 
@@ -92,10 +92,10 @@ Pre spustenie programu pravým tlačidlom klikneme do programu, ktorý sme práv
 
 Výsledok vidíme v dolnej časti, v tzv. konzole.
 
-[![Console](images/Console.png)](kotlin/images/Console.png)
+[![Console](images/Console.png)](images/Console.png)
 
 Kde sa vypísal text *Toto je môj prvý program v jazyku Kotlin!*
 
-[![Console](images/Console2.png)](kotlin/images/Console2.png)
+[![Console](images/Console2.png)](images/Console2.png)
 
 O funkcii `println()` si povieme viac neskôr.
