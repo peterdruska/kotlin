@@ -49,3 +49,7 @@ Teraz je dôležité nastaviť jazyk Kotlin v projekte pomocou **Tools > Kotlin 
 Zatiaľ nás bude zaujímať zo štruktúry projektu zložka `/src/`.
 
 ![Src](images/Src.png)
+
+Vyznačíme ju a klikneme pravým tlačidlom. Po zobrazení ponuky vyberieme `New > Kotlin File/Class`.
+
+![Kotlin File](images/KotlinFile.png)
