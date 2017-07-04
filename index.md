@@ -71,3 +71,9 @@ V otvorenom súbore **HelloWorld.kt** napíšeme `main` a stlačíme tabulátor.
 IntelliJ IDEA automaticky doplní hlavnú funkciu, do ktorej budeme písať akýkoľvek program v začiatkoch. Nebudeme sa teraz zaoberať, čo je funkcia, prečo sa táto volá `main`, ani čo je to tam popísané. Momentálne nám pôjde o to, čo bude v zložených zátvorkách `{}`.
 
 ![Body of the Main Function](screencasts/bodyOfMainFunction.gif)
+
+Aby sme ten prvý program skúsili, do spomínaných zložených zátvoriek napíšeme tento príkaz:
+
+```
+println("Toto je môj prvý program v jazyku Kotlin!")
+```
