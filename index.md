@@ -13,7 +13,7 @@ Je to moderný programovací jazyk, ktorý je
 
 Na základnú prácu a spoznanie sa s jazykom Kotlin budeme používať softvér, ktorý je zadarmo a volá sa [IntelliJ IDEA](https://www.jetbrains.com/idea/). Ten si treba stiahnuť a otvoriť, aby sme mohli začať.
 
-### Základné nastavenie IntelliJ IDEA
+### Vytvorenie nového projektu v IntelliJ IDEA
 
 V IntelliJ IDEA potrebujeme po spustení urobiť pár základných úkonov, aby sme mohli napísať prvý program v jazyku Kotlin.
 
@@ -34,6 +34,10 @@ Zadáme **Next**.
 
 V ďalšom kroku zadáme meno nového projektu. V ukážke to je **Hello World** a zadáme **Finish**.
 
+### Nastavenie projektu
+
 Teraz sa otvorí obrazovka projektu *Hello World*.
 
 ![Project](images/Project.png)
+
+Teraz je dôležité nastaviť jazyk Kotlin v projekte pomocou **Tools > Kotlin > Configure Kotlin in Project > All modules containing Kotlin files**. Zvyšok ponecháme tak, ako je a potvrdíme **OK**.
