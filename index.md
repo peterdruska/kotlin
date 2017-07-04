@@ -62,4 +62,4 @@ IntelliJ IDEA teraz pripraví a otvorí nový súbor na úpravu.
 
 ![Edit new file](images/EditFile.png)
 
-### Prvý program
+## Prvý program
