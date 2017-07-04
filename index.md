@@ -150,6 +150,8 @@ Spustenie tohto programu vypíše text „**Toto je super reťazec 3000!**“.
 
 ## Konštanty
 
+Aby sme plne využili potenciál jazyka Kotlin, musíme sa pozrieť na konštanty. Sú mocným nástrojom na to, keď chceme uchovávať istú hodnotu a používať ju v programe na viacerých miestach bez toho, aby sme si túto hodnotu museli pamätať.
+
 ## Premenné
 
 ## Reťazce
