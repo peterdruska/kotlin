@@ -99,3 +99,11 @@ Kde sa vypísal text *Toto je môj prvý program v jazyku Kotlin!*
 [![Console](images/Console2.png)](images/Console2.png)
 
 O funkcii `println()` si povieme viac neskôr.
+
+## Základné dátové typy
+
+### String
+
+### Double
+
+### Int
