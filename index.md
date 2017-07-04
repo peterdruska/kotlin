@@ -17,7 +17,7 @@ Na základnú prácu a spoznanie sa s jazykom Kotlin budeme používať softvér
 
 V IntelliJ IDEA potrebujeme po spustení urobiť pár základných úkonov, aby sme mohli napísať prvý program v jazyku Kotlin.
 
-![New Project](/images/NewProject.png)
+[New Project](/images/NewProject.png)
 
 1. Ako **Project SDK** vybrať konkrétnu verziu Javy, ktorá by v IntelliJ IDEA mala byť už doinštalovaná.
 2. V časti **Additional Libraries and Frameworks** zaškrtnúť voľbu **Kotlin (Java)**
