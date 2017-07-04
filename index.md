@@ -63,3 +63,5 @@ IntelliJ IDEA teraz pripraví a otvorí nový súbor na úpravu.
 [![Edit new file](images/EditFile.png)](kotlin/images/EditFile.png)
 
 ## Prvý program
+
+![Main Function](screencasts/mainFunction.mov)
