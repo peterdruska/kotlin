@@ -77,3 +77,11 @@ Aby sme ten prvý program skúsili, do spomínaných zložených zátvoriek nap�
 ```kotlin
 println("Toto je môj prvý program v jazyku Kotlin!")
 ```
+
+Funkcia `main` bude vyzerať nasledovne:
+
+```kotlin
+fun main(args: Array<String>) {
+    println("Toto je môj prvý program v jazyku Kotlin!")
+}
+```
