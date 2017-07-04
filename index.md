@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Úvod do jazyka Kotlin
 
-You can use the [editor on GitHub](https://github.com/peterdruska/kotlin.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+[Jazyk Kotlin](https://kotlinlang.org) je pomerne mladý jazyk, ktorý vznikol na základe jazyka Java, aby sa dali medzi sebou ľahko nahrádzať. Hovoríme aj, aby boli navzájom kompatibilné.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Je to moderný programovací jazyk, ktorý je
 
-### Markdown
+- Jednotný (konzistentný) – je vždy jasné, čo je zapísané
+- Bezpečný – pri práci sa robí menej chýb, ako pri práci s Javou
+- Medzioperačný – dá sa používať všade tam, kde Java: server, Android, …
+– Dá sa programovať v rôznych nástrojoch
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Vývojové prostredie
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+Na základnú prácu a spoznanie sa s jazykom Kotlin budeme používať softvér, ktorý je zadarmo a volá sa [IntelliJ IDEA](https://www.jetbrains.com/idea/). Ten si treba stiahnuť a otvoriť, aby sme mohli začať.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Základné nastavenie IntelliJ IDEA
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/peterdruska/kotlin.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+V IntelliJ IDEA potrebujeme po spustení urobiť pár základných úkonov, aby sme mohli napísať prvý program v jazyku Kotlin.
