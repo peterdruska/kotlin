@@ -92,10 +92,10 @@ Pre spustenie programu pravým tlačidlom klikneme do programu, ktorý sme práv
 
 Výsledok vidíme v dolnej časti, v tzv. konzole.
 
-![Console](images/Console.png)
+[![Console](images/Console.png)](kotlin/images/Console.png)
 
 Kde sa vypísal text *Toto je môj prvý program v jazyku Kotlin!*
 
-![Console](images/Console2.png)
+[![Console](images/Console2.png)](kotlin/images/Console2.png)
 
 O funkcii `println()` si povieme viac neskôr.
