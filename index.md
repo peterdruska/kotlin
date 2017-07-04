@@ -102,6 +102,8 @@ O funkcii `println()` si povieme viac neskôr.
 
 ## Základné dátové typy
 
+Pri programovaní budeme vždy pracovať s typmi údajov. V bežnom živote sa môžeme stretnúť s číslami, s textami a podobne. V jazyku Kotlin to je podobné a zo začiatku budeme rozlišovať tri jednoduché dátové typy: **textové reťazce** (`String`), **celé** čísla (`Int`), **reálne čísla** (`Double`).
+
 ### String
 
 ### Double
