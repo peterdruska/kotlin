@@ -7,7 +7,7 @@ Je to moderný programovací jazyk, ktorý je
 - Jednotný (konzistentný) – je vždy jasné, čo je zapísané
 - Bezpečný – pri práci sa robí menej chýb, ako pri práci s Javou
 - Medzioperačný – dá sa používať všade tam, kde Java: server, Android, …
-– Dá sa programovať v rôznych nástrojoch
+- Dá sa programovať v rôznych nástrojoch
 
 ### Vývojové prostredie
 
