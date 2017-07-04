@@ -29,3 +29,11 @@ V IntelliJ IDEA potrebujeme po spustení urobiť pár základných úkonov, aby 
 Ďalším krokom je výber šablóny. Tento krok teraz preskakujeme, vôbec nás nezaujíma, nakoľko začneme s jazykom Kotlin *na čistom papieri*, ako sa hovorí.
 
 ![Choose Template](images/Template.png)
+
+Zadáme **Next**.
+
+![Project Name](images/Name.png)
+
+V ďalšom kroku zadáme meno nového projektu. V ukážke to je **Hello World** a zadáme **Finish**.
+
+Teraz sa otvorí obrazovka projektu *Hello World*.
