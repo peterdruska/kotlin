@@ -499,6 +499,14 @@ if (PODMIENKA) {
 
 Ako tvoje budúce *ja* pochopí, polia sú strašne sexy. Jednorozmerné, dvojrozmerné, trojrozmerné, štvorrozmerné, … n–rozmerné. Tvoja babička okopkáva cibuľku na tých dvojrozmerných, lebo ležia plocho na zemi. Aby si sa čo i len priblížil/a svojej babičke, musíš začať najskôr poliami jednorozmernými. V školách nimi strašia tak, že ich nazývajú „vektory“ alebo „matice“, Feynmnan ich nazýva „šípkami“, my ich budeme volať **polia**. Niečo veľmi podobné poliam budeme nazývať **zoznamy**. Všetko si ukážeme.
 
+Majme pole čísel, ktoré sa definuje volaním funkcie `arrayOf()`:
+
+```kotlin
+val arr = arrayOf(1, 1, 2, 3, 5, 8, 13, 21)
+```
+
+(Kto zistí, o akú postupnosť čísel sa jedná?)
+
 ## Funkcie (metódy)
 
 ## Objekty a triedy
