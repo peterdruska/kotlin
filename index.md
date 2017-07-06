@@ -354,7 +354,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-Ak autobus bude meškať, vypíšeme cestujúcim túto informáciu na tabuli. Pokiaľ však meškať nebude, vypíšeme toľko, že všetko je v poriadku. Na tieto a podobné prípady máme v programovaní podmienky. V jazku Kotlin sa zapisujú takto:
+Ak autobus bude meškať, vypíšeme cestujúcim túto informáciu na tabuli. Na tieto a podobné prípady máme v programovaní podmienky. V jazku Kotlin sa zapisujú pomocou vyhradeného slova `if`:
 
 ```kotlin
 if (…) {
@@ -362,7 +362,7 @@ if (…) {
 }
 ```
 
-Miesto troch bodiek budú konkrétne veci. V prípade autobusu:
+Miesto troch bodiek v príkaze budú konkrétne veci (ďalšie príkazy). V prípade autobusu:
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -373,6 +373,8 @@ fun main(args: Array<String>) {
     }
 }
 ```
+
+Po spustení programu
 
 ## Polia, zoznamy a cykly
 
