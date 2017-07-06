@@ -357,8 +357,8 @@ fun main(args: Array<String>) {
 Ak autobus bude meškať, vypíšeme cestujúcim túto informáciu na tabuli. Na tieto a podobné prípady máme v programovaní podmienky. V jazku Kotlin sa zapisujú pomocou vyhradeného slova `if`:
 
 ```kotlin
-if (…) {
-    …
+if (PODMIENKA) {
+    // pokiaľ je podmienka splnená (true), vykonajú sa príkazy tu
 }
 ```
 
@@ -407,6 +407,8 @@ fun main(args: Array<String>) {
     }
 }
 ```
+
+Teraz keď zadáme do konštanty `delay` hodnotu nula, vypíše sa reťazec z vetvy `else`.
 
 ## Polia, zoznamy a cykly
 
