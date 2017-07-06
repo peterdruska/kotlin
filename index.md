@@ -428,7 +428,7 @@ fun main(args: Array<String>) {
 
 Konštanta `sentence` je typu `String`, preto nad ňou môžeme zavolať funkciu (o funkciách neskôr) `contains()`, do ktorej vložíme symbol znaku, ktorý hľadáme.
 
-#### Či je vhodná džka reťazca
+#### Či má reťazec požadovanú dĺžku
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -438,6 +438,35 @@ fun main(args: Array<String>) {
         println("Heslo je príliš krátke.")
     } else {
         println("Heslo je akurátne.")
+    }
+}
+```
+
+#### Či sú reťazce rovnaké
+
+```kotlin
+fun main(args: Array<String>) {
+    val username: String = "jankohrasko"
+    val username2: String = "janhrach"
+
+    if (username == username2) {
+        println("Používateľské meno už existuje, vymysli si prosím, iné.")
+    } else {
+        println("Tvoje používateľské meno je voľné.")
+    }
+}
+```
+
+#### Či je reťazec prázdny
+
+```kotlin
+fun main(args: Array<String>) {
+    val username: String = "jankohrasko"
+
+    if (username.isEmpty()) {
+        println("Zadaj prosím nejaké používateľské meno.")
+    } else {
+        println("Výborne, odteraz sa budeš volať $username.")
     }
 }
 ```
