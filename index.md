@@ -235,6 +235,8 @@ fun main(args: Array<String>) {
 
 Najprv definujeme konštantu `text` typu `String`, do ktorej vložíme reťazec s informáciou o meškaní. Na ďalšom riadku hodnotu tejto konštanty vypíšeme `println(text)`.
 
+### Reťazce + konštanta/premenná
+
 Čo ale v prípade, že autobus bude meškať 14 minút? A čo 13? A čo keď 23? Nedáva zmysel túto hodnotu neustále prepisovať v reťazci, keď ju môžeme odtiaľ vyňať a meniť ju na prehľadnejšom mieste tak, že z nej urobíme novú konštantu:
 
 ```kotlin
@@ -244,20 +246,57 @@ val delay: Int = 15
 Následne textovú konštantu upravíme tak, aby sme hodnotu konštanty `delay` v ňom mali:
 
 ```kotlin
-val text = "Autobus do Martina bude meškať $delay minút."
+val text: String = "Autobus do Martina bude meškať $delay minút."
 ```
 
 Čiže celý program bude takýto:
 
 ```kotlin
 fun main(args: Array<String>) {
-    val delay = 15
-    val text = "Autobus do Martina bude meškať $delay minút."
+    val delay: Int = 15
+    val text: String = "Autobus do Martina bude meškať $delay minút."
     println(text)
 }
 ```
 
 Teraz máme jedno pevné miesto, kde meškanie vždy upravíme podľa potreby a táto nová hodnota sa potom premietne do výsledného reťazca zavolaním mena konštanty/premennej pomocou symbolu dolár `$delay`.
+
+### Spájanie reťazcov
+
+Čo v prípade, že máme dva reťazce:
+
+```kotlin
+val words1: String = "Ahoj Svet."
+val words2: String = "Učím sa programovať."
+```
+
+A chceme ich spojiť dohromady. Je to veľmi jednoduché:
+
+```kotlin
+val allWords: String = words1 + words2
+```
+
+Celý program:
+
+```kotlin
+fun main(args: Array<String>) {
+    val words1: String = "Ahoj Svet."
+    val words2: String = "Učím sa programovať."
+    val allWords: String = words1 + words2
+    println(allWords)
+}
+```
+
+Vety by mali byť oddelené medzerou, preto pridajme medzeru medzi reťazce:
+
+```kotlin
+fun main(args: Array<String>) {
+    val words1: String = "Ahoj Svet."
+    val words2: String = "Učím sa programovať."
+    val allWords: String = words1 + " " + words2
+    println(allWords)
+}
+```
 
 ## Podmienky
 
