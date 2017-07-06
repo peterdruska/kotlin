@@ -365,6 +365,14 @@ if (…) {
 Miesto troch bodiek v príkaze budú konkrétne veci (ďalšie príkazy). V prípade autobusu:
 
 ```kotlin
+if (delay > 0) {
+    println("Autobus mešká $delay minút. Ospravedlňujeme sa!")
+}
+```
+
+Čiže ak meškanie bude väčšie ako nula, vypíšeme o tom informáciu. Celý program:
+
+```kotlin
 fun main(args: Array<String>) {
     val delay: Int = 15
 
@@ -374,7 +382,31 @@ fun main(args: Array<String>) {
 }
 ```
 
-Po spustení programu
+Po spustení programu dostaneme na výpise **„Autobus mešká 15 minút. Ospravedlňujeme sa!“** Čo v prípade, že do konštanty `delay` zadáme nulu? Program nič nevypíše, lebo podmienka `delay > 0` nie je splnená (nadobúda hodnotu `false`).
+
+V takom prípade, keď chceme dať cestujúcim informáciu, že autobus ide načas, musíme použiť druhú vetvu príkazu `if`, ktorá sa volá vyhradeným slovom `else` takto:
+
+```kotlin
+if (PODMIENKA) {
+   // príkazy vo vetve if, pokiaľ je PODMIENKA splnená (true)
+} else {
+   // príkazy vo vetve else, pokiaľ je PODMIENKA nesplnená (false)
+}
+```
+
+Program s autobusom bude takýto:
+
+```kotlin
+fun main(args: Array<String>) {
+    val delay: Int = 15
+
+    if (delay > 0) {
+        println("Autobus mešká $delay minút. Ospravedlňujeme sa!")
+    } else {
+        println("Autobus ide načas. Stihnete všetko, čo plánujete!")
+    }
+}
+```
 
 ## Polia, zoznamy a cykly
 
