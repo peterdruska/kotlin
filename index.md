@@ -487,7 +487,7 @@ if (PODMIENKA) {
             }
         } else {
             if (PODMIENKA6) {
-                // Ale bacha na to, lebo sa môžeš stratiť tak, ako sa len podmienka v podmienka môže stratiť!
+                // Ale bacha na to, lebo sa môžeš stratiť tak, ako sa len podmienka v podmienke môže stratiť!
             }
     } else {
         // Tu už končia všetky srandy.
