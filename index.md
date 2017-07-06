@@ -502,7 +502,7 @@ Ako tvoje budúce *ja* pochopí, polia sú strašne sexy. Jednorozmerné, dvojro
 Majme pole čísel, ktoré sa definuje volaním funkcie `arrayOf()`:
 
 ```kotlin
-val arr = arrayOf(1, 1, 2, 3, 5, 8, 13, 21)
+val fib = arrayOf(1, 1, 2, 3, 5, 8, 13, 21)
 ```
 
 (Kto zistí, o akú postupnosť čísel sa jedná a aké by boli ďalšie čísla?)
