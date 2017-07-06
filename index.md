@@ -340,6 +340,14 @@ fun main(args: Array<String>) {
 
 Výsledok znovu vypíše ako `true`. Vyššie uvedený zápis vyzerá zvláštne, no robí len toľko, že výsledok porovnania `42 >= 15` vloží do konštanty `solution`.
 
+### Logika viac vecí
+
+Stáva sa, že treba rozhodnúť viac vecí naraz. Napríklad zistiť, či platí trojuholníková nerovnosť, či je teplota vzduchu a vody vhodná na kúpanie, či prídu všetci atď. Na zisťovanie hodnoty `true` alebo `false` viac vecí naraz používame operátory:
+
+- `||` – alebo
+- `&&` – a zároveň
+- `!` – negácia
+
 Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
 
 ## Podmienky
