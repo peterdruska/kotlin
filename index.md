@@ -471,6 +471,8 @@ fun main(args: Array<String>) {
 }
 ```
 
+![isEmpty](screencasts/isEmpty.gif)
+
 ## Polia, zoznamy a cykly
 
 ## Funkcie (metódy)
