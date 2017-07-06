@@ -257,6 +257,8 @@ fun main(args: Array<String>) {
 }
 ```
 
+Teraz máme jedno pevné miesto, kde meškanie vždy upravíme podľa potreby a táto nová hodnota sa potom premietne do výsledného reťazca zavolaním mena konštanty/premennej pomocou symbolu dolár `$delay`.
+
 ## Podmienky
 
 ## Polia, zoznamy a cykly
