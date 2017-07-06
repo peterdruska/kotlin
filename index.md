@@ -329,9 +329,16 @@ Hodnota `true` vo výpise je typu `Boolean`. Rovnakým spôsobom môžeme zadať
 == // rovný
 ```
 
-Ich výsledkom bude práve typ `Boolean`, a síce hodnota `true` alebo `false`.
+Ich výsledkom bude práve typ `Boolean`, a síce hodnota `true` alebo `false`. Skúsme niečo takéto:
 
-Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
+```kotlin
+fun main(args: Array<String>) {
+    val solution: Boolean = 42 >= 15
+    println(solution)
+}
+```
+
+Výsledok znovu vypíše ako `true`. Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
 
 ## Podmienky
 
