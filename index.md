@@ -357,7 +357,32 @@ fun main(args: Array<String>) {
 
     val aAndB = a > 0 && b > 0 // Zistenie (a > 0 a zároveň b > 0)
 
-    println("$a > 0 && $b > 0 = $aAndB") // výpis zloženého porovnania
+    println("($a > 0 && $b > 0) = $aAndB") // výpis zloženého porovnania
+}
+```
+
+Operátor alebo:
+
+```kotlin
+fun main(args: Array<String>) {
+    val a: Int = 1
+    val b: Int = -1
+
+    val aOrB = a > 0 || b > 0 // Zistenie (a > 0 alebo b > 0)
+
+    println("($a > 0 || $b > 0) = $aOrB") // výpis zloženého porovnania
+}
+```
+
+Operátor negácia:
+
+```kotlin
+fun main(args: Array<String>) {
+    val a: Int = 1
+
+    val aNot = !(a > 0) // Zistenie negácie výrazu (a > 0)
+
+    println("!(a > 0) = $aNot") // výpis zloženého porovnania
 }
 ```
 
