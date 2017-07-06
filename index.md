@@ -346,6 +346,34 @@ Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
 
 Autobus raz mešká, inokedy nie. Cestujúcim nemôžeme vypísať informáciu *„autobus mešká 0 minút“*. Bolo by to trochu … *blbé*. Namiesto toho musíme zistiť, o aké meškanie sa jedná a rozlíšiť dva rôzne prípady.
 
+Vytvorme program, v ktorom bude v jednej konštante doba meškania:
+
+```kotlin
+fun main(args: Array<String>) {
+    val delay: Int = 15
+}
+```
+
+Ak autobus bude meškať, vypíšeme cestujúcim túto informáciu na tabuli. Pokiaľ však meškať nebude, vypíšeme toľko, že všetko je v poriadku. Na tieto a podobné prípady máme v programovaní podmienky. V jazku Kotlin sa zapisujú takto:
+
+```kotlin
+if (…) {
+    …
+}
+```
+
+Miesto troch bodiek budú konkrétne veci. V prípade autobusu:
+
+```kotlin
+fun main(args: Array<String>) {
+    val delay: Int = 15
+
+    if (delay > 0) {
+        println("Autobus mešká $delay minút. Ospravedlňujeme sa!")
+    }
+}
+```
+
 ## Polia, zoznamy a cykly
 
 ## Funkcie (metódy)
