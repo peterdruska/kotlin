@@ -497,6 +497,8 @@ if (PODMIENKA) {
 
 ## Polia, zoznamy a cykly
 
+Ako tvoje budúce *ja* pochopí, polia sú strašne sexy. Jednorozmerné, dvojrozmerné, trojrozmerné, štvorrozmerné, … n–rozmerné. Tvoja babička okopkáva cibuľku na tých dvojrozmerných, lebo ležia plocho na zemi. Aby si sa čo i len priblížil/a svojej babičke, musíš začať najskôr poliami jednorozmernými. V školách nimi strašia tak, že ich nazývajú „vektory“.
+
 ## Funkcie (metódy)
 
 ## Objekty a triedy
