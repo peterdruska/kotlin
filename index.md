@@ -224,6 +224,39 @@ A program žiadnu chybu nezahlási.
 
 ## Reťazce
 
+Veľakrát budeme potrebovať pracovať s reťazcami. Napríklad potrebujeme vypísať oznam cestujúcim na autobusovej stanici, že autobus do Martina bude meškať 15 minút:
+
+```kotlin
+fun main(args: Array<String>) {
+    val text: String = "Autobus do Martina bude meškať 15 minút."
+    println(text)
+}
+```
+
+Najprv definujeme konštantu `text` typu `String`, do ktorej vložíme reťazec s informáciou o meškaní. Na ďalšom riadku hodnotu tejto konštanty vypíšeme `println(text)`.
+
+Čo ale v prípade, že autobus bude meškať 14 minút? A čo 13? A čo keď 23? Nedáva zmysel túto hodnotu neustále prepisovať v reťazci, keď ju môžeme odtiať vyňať a meniť ju na prehľadnejšom mieste tak, že z nej urobíme novú konštantu:
+
+```kotlin
+val delay: Int = 15
+```
+
+Následne textovú konštantu upravíme tak, aby sme hodnotu konštanty `delay` v ňom mali:
+
+```kotlin
+val text = "Autobus do Martina bude meškať $delay minút."
+```
+
+Čiže celý program bude takýto:
+
+```kotlin
+fun main(args: Array<String>) {
+    val delay = 15
+    val text = "Autobus do Martina bude meškať $delay minút."
+    println(text)
+}
+```
+
 ## Podmienky
 
 ## Polia, zoznamy a cykly
