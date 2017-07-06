@@ -165,7 +165,7 @@ fun main(args: Array<String>) {
     val pi = 3.1415
     val r = 4.0
     val perimeter = 2 * pi * r
-    println(perimeter)
+    println("Obvod kruhu s polomerom $r je $perimeter.")
 }
 ```
 
