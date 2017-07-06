@@ -186,7 +186,17 @@ val retazec: String = "Toto je konštanta typu String"
 val celeCislo: Int = 42
 ```
 
+Konštanty sa preto volajú konštanty, lebo sú **konštantné** a nemôžu sa meniť. Čiže ak už máme konštantu `celeCislo` rovnú hodnote 42, neskôr v programe nemôžeme urobiť nové priradenie:
+
+```kotlin
+celeCislo = 43
+```
+
+Program potom zahlási chybu a nespustí sa.
+
 ## Premenné
+
+Aby sme mohli meniť hodnoty, máme premenné, ktoré sa volajú premennými preto, že sa dajú **premeniť**.
 
 ## Reťazce
 
