@@ -322,7 +322,7 @@ fun main(args: Array<String>) {
 
 Hodnota `true` vo výpise je typu `Boolean`. Rovnakým spôsobom môžeme zadať rôzne porovnávacie operácie:
 
-```
+```kotlin
 >  // väčší
 <  // menší
 >= // väčší rovný
