@@ -348,6 +348,24 @@ Stáva sa, že treba rozhodnúť viac vecí naraz. Napríklad zistiť, či plat�
 - `&&` – a zároveň
 - `!` – negácia
 
+Porovnajme viac čísel voči nulou naraz:
+
+```kotlin
+fun main(args: Array<String>) {
+    val a: Int = 1
+    val b: Int = 4
+
+    val a0: Boolean = a > 0 // ak je 'a' väčšie od nuly, tak true
+    val b0: Boolean = b > 0 // ak je 'b' väčšie od nuly, tak true
+
+    val aAndB = a0 && b0 // Zistenie (a > 0 a zároveň b > 0)
+
+    println("$a > 0 = $a0") // výpis prvého porovnania
+    println("$b > 0 = $b0") // výpis druhého porovnania
+    println("$a > 0 && $b > 0 = $aAndB") // výpis zloženého porovnania
+}
+```
+
 Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
 
 ## Podmienky
