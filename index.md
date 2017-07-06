@@ -192,11 +192,35 @@ Konštanty sa preto volajú konštanty, lebo sú **konštantné** a nemôžu sa 
 celeCislo = 43
 ```
 
-Program potom zahlási chybu a nespustí sa.
+Program potom zahlási chybu a nespustí sa. Napríklad takýto:
+
+```kotlin
+fun main(args: Array<String>) {
+    val celeCislo = 42
+    celeCislo = 43
+}
+```
 
 ## Premenné
 
-Aby sme mohli meniť hodnoty, máme premenné, ktoré sa volajú premennými preto, že sa dajú **premeniť**.
+Aby sme im mohli meniť hodnoty, k dispozícii máme premenné, ktoré sa volajú premennými preto, že sa dajú **premeniť**. Teda ich hodnoty sa dajú premeniť.
+
+Ich definícia začína vyhradeným slovom `var`:
+
+```kotlin
+var vekCloveka = 18
+```
+
+Neskôr sa vek človeka môže prirodzene zmeniť kedykoľvek v programe:
+
+```kotlin
+fun main(args: Array<String>) {
+    var vekCloveka = 18
+    vekCloveka = 19
+}
+```
+
+A program žiadnu chybu nezahlási.
 
 ## Reťazce
 
