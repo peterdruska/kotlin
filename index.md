@@ -414,7 +414,7 @@ Teraz keď zadáme do konštanty `delay` hodnotu nula, vypíše sa reťazec z ve
 
 Do podmienok `if` sa dajú vkladať aj porovnávačky reťazcov. Napríklad, či obsahuje nejaký znak, akú má dĺžku alebo či sú reťazce rovnaké. Podmienok sa dá vymyslieť mnoho, tu sú základné z nich.
 
-Či reťazec obsahuje nejaký znak:
+#### Či reťazec obsahuje nejaký znak
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -427,6 +427,20 @@ fun main(args: Array<String>) {
 ```
 
 Konštanta `sentence` je typu `String`, preto nad ňou môžeme zavolať funkciu (o funkciách neskôr) `contains()`, do ktorej vložíme symbol znaku, ktorý hľadáme.
+
+#### Či je vhodná džka reťazca
+
+```kotlin
+fun main(args: Array<String>) {
+    val password: String = "nbusr123"
+
+    if (password.length <= 3) {
+        println("Heslo je príliš krátke.")
+    } else {
+        println("Heslo je akurátne.")
+    }
+}
+```
 
 ## Polia, zoznamy a cykly
 
