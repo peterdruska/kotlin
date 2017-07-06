@@ -196,14 +196,14 @@ Program potom zahlási chybu a nespustí sa. Napríklad takýto:
 
 ```kotlin
 fun main(args: Array<String>) {
-    val celeCislo = 42
-    celeCislo = 43
+    val celeCislo = 42 // prvé priradenie do konštanty
+    celeCislo = 43 // toto sa nemôže už, konštanta sa nedá zmeniť po jej zadefinovaní
 }
 ```
 
 ## Premenné
 
-Aby sme im mohli meniť hodnoty, k dispozícii máme premenné, ktoré sa volajú premennými preto, že sa dajú **premeniť**. Teda ich hodnoty sa dajú premeniť.
+Aby sme im mohli hodnoty meniť, k dispozícii máme premenné, ktoré sa volajú premennými preto, že sa dajú **premeniť**. Teda ich hodnoty sa dajú premeniť.
 
 Ich definícia začína vyhradeným slovom `var`:
 
@@ -215,8 +215,8 @@ Neskôr sa vek človeka môže prirodzene zmeniť kedykoľvek v programe:
 
 ```kotlin
 fun main(args: Array<String>) {
-    var vekCloveka = 18
-    vekCloveka = 19
+    var vekCloveka = 18 // prvé priradenie
+    vekCloveka = 19 // druhé priradenie, premenná sa takto môže
 }
 ```
 
