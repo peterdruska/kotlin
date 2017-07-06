@@ -196,7 +196,7 @@ Program potom zahlási chybu a nespustí sa. Napríklad takýto:
 
 ```kotlin
 fun main(args: Array<String>) {
-    val celeCislo = 42 // prvé priradenie do konštanty
+    val celeCislo: Int = 42 // prvé priradenie do konštanty
     celeCislo = 43 // toto sa nemôže už, konštanta sa nedá zmeniť po jej zadefinovaní
 }
 ```
@@ -208,14 +208,14 @@ Aby sme im mohli hodnoty meniť, k dispozícii máme premenné, ktoré sa volaj�
 Ich definícia začína vyhradeným slovom `var`:
 
 ```kotlin
-var vekCloveka = 18
+var vekCloveka: Int = 18
 ```
 
 Neskôr sa vek človeka môže prirodzene zmeniť kedykoľvek v programe:
 
 ```kotlin
 fun main(args: Array<String>) {
-    var vekCloveka = 18 // prvé priradenie
+    var vekCloveka: Int = 18 // prvé priradenie
     vekCloveka = 19 // druhé priradenie, premenná sa takto môže
 }
 ```
