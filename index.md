@@ -348,7 +348,7 @@ Stáva sa, že treba rozhodnúť viac vecí naraz. Napríklad zistiť, či plat�
 - `&&` – a zároveň
 - `!` – negácia
 
-Porovnajme viac čísel voči nulou naraz:
+Porovnajme viac čísel voči nule naraz:
 
 ```kotlin
 fun main(args: Array<String>) {
