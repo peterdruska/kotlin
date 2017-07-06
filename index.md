@@ -505,7 +505,7 @@ Majme pole čísel, ktoré sa definuje volaním funkcie `arrayOf()`:
 val arr = arrayOf(1, 1, 2, 3, 5, 8, 13, 21)
 ```
 
-(Kto zistí, o akú postupnosť čísel sa jedná?)
+(Kto zistí, o akú postupnosť čísel sa jedná a aké by boli ďalšie čísla?)
 
 ## Funkcie (metódy)
 
