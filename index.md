@@ -338,7 +338,9 @@ fun main(args: Array<String>) {
 }
 ```
 
-Výsledok znovu vypíše ako `true`. Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
+Výsledok znovu vypíše ako `true`. Vyššie uvedený zápis vyzerá zvláštne, no robí len toľko, že výsledok porovnania `42 >= 15` vloží do konštanty `solution`.
+
+Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
 
 ## Podmienky
 
