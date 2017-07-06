@@ -308,8 +308,6 @@ var delayed: Boolean = false
 
 Okrem hodnoty `false` môže tento typ nadobúdať už len hodnotu `true`. Môžeme si ho predstaviť ako vypínač svetla: **svieti**, **nesvieti**.
 
-Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
-
 ### Logika vecí
 
 Typ `Booblean` sa používa pri logickom uvažovaní, rozhodovaní. Napríklad skúsme tento program:
@@ -332,6 +330,8 @@ Hodnota `true` vo výpise je typu `Boolean`. Rovnakým spôsobom môžeme zadať
 ```
 
 Ich výsledkom bude práve typ `Boolean`, a síce hodnota `true` alebo `false`.
+
+Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
 
 ## Podmienky
 
