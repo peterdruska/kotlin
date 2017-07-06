@@ -473,6 +473,26 @@ fun main(args: Array<String>) {
 
 ![isEmpty](screencasts/isEmpty.gif)
 
+#### Zanorené podmienky
+
+Podmienky sa dajú do seba (v prípade fakt nutnej potreby) aj zanárať:
+
+```kotlin
+if (PODMIENKA) {
+    if (PODMIENKA2) {
+        if (PODMIENKA3) {
+            if (PODMIENKA4) {
+                if (PODMIENKA5) {
+                }
+            }
+        } else {
+            if (PODMIENKA6) {
+                // Ale bacha na to, lebo sa môžeš stratiť!
+            }
+    }
+}
+```
+
 ## Polia, zoznamy a cykly
 
 ## Funkcie (metódy)
