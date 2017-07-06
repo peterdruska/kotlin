@@ -331,6 +331,8 @@ Hodnota `true` vo výpise je typu `Boolean`. Rovnakým spôsobom môžeme zadať
 == // rovný
 ```
 
+Ich výsledkom bude práve typ `Boolean`, a síce hodnota `true` alebo `false`.
+
 ## Podmienky
 
 Autobus raz mešká, inokedy nie. Cestujúcim nemôžeme vypísať informáciu *„autobus mešká 0 minút“*. Bolo by to trochu … *blbé*. Namiesto toho musíme zistiť, o aké meškanie sa jedná a rozlíšiť dva rôzne prípady.
