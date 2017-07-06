@@ -298,7 +298,17 @@ fun main(args: Array<String>) {
 }
 ```
 
+## Boolean - Rozhodovací typ
+
+Jeden typ v programovaní sa tak trochu vymyká bežnému ľudskému chápaniu, ale len chvíľu. Potom si na človeka zasadne ako ovad a zvykne už nepustiť. Je to tzv. **rozhodovací typ**, v jazyku Kotlin sa označuje názvom `Boolean`. Definujme napríklad premennú tohto typu:
+
+```kotlin
+var delayed: Boolean = false
+```
+
 ## Podmienky
+
+Autobus raz mešká, inokedy nie. Cestujúcim nemôžeme vypísať informáciu *„autobus mešká 0 minút“*. Bolo by to trochu … *blbé*. Namiesto toho musíme zistiť, o aké meškanie sa jedná a rozlíšiť dva rôzne prípady.
 
 ## Polia, zoznamy a cykly
 
