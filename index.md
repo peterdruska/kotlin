@@ -300,10 +300,35 @@ fun main(args: Array<String>) {
 
 ## Boolean - Rozhodovací typ
 
-Jeden typ v programovaní sa tak trochu vymyká bežnému ľudskému chápaniu, ale len chvíľu. Potom si na človeka zasadne ako ovad a zvykne už nepustiť. Je to tzv. **rozhodovací typ**, v jazyku Kotlin sa označuje názvom `Boolean`. Definujme napríklad premennú tohto typu:
+Jeden typ v programovaní sa tak trochu vymyká bežnému ľudskému chápaniu, ale len chvíľu. Potom si na človeka zasadne ako ovad a zvykne už nepustiť. Je to tzv. **rozhodovací typ**, v jazyku Kotlin sa označuje názvom `Boolean`. Premenná tohto typu vyzerá takto:
 
 ```kotlin
 var delayed: Boolean = false
+```
+
+Okrem hodnoty `false` môže tento typ nadobúdať už len hodnotu `true`. Môžeme si ho predstaviť ako vypínač svetla: **svieti**, **nesvieti**.
+
+Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
+
+### Logika vecí
+
+Typ `Booblean` sa používa pri logickom uvažovaní, rozhodovaní. Napríklad skúsme tento program:
+
+```kotlin
+fun main(args: Array<String>) {
+    println(3 < 4)
+}
+```
+
+Hodnota `true` vo výpise je typu `Boolean`. Rovnakým spôsobom môžeme zadať rôzne porovnávacie operácie:
+
+```
+>  // väčší
+<  // menší
+>= // väčší rovný
+<= // menší rovný
+!= // rôzny
+== // rovný
 ```
 
 ## Podmienky
