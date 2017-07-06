@@ -150,7 +150,34 @@ Spustenie tohto programu vypíše text „**Toto je super reťazec 3000!**“.
 
 ## Konštanty
 
-Aby sme plne využili potenciál jazyka Kotlin, musíme sa pozrieť na konštanty. Sú mocným nástrojom na to, keď chceme uchovávať istú hodnotu a používať ju v programe na viacerých miestach bez toho, aby sme si túto hodnotu museli pamätať.
+Keď chceme uchovávať nejakú hodnotu, napr. číslo 3,14 a používať ju v programe na viacerých miestach bez toho, aby sme si túto hodnotu museli pamätať alebo neustále zapisovať, použijeme konštantu. Definuje sa takto:
+
+```kotlin
+val pi = 3.1415
+```
+
+Definícia začína vyhradeným slovom `val`, za ktorým ide vlastné meno, ktoré určujeme my. Potom spravidla nasleduje znamienko rovná sa `=` a za ním hodnota, ktorú táto konštanta nadobúda.
+
+Keď chceme vypočítať obvod kruhu, použitie konštánt bude nasledovné:
+
+```kotlin
+fun main(args: Array<String>) {
+    val pi = 3.1415
+    val r = 4.0
+    val perimeter = 2 * pi * r
+    println(perimeter)
+}
+```
+
+### Definovanie typu
+
+Definovanie konštanty vieme uskutočniť aj s riadnym určeným typu. Napríklad pre vyššie definovanú konštantú **pí** to bude takto:
+
+```kotlin
+val pi: Double = 3.1415
+```
+
+Za meno konštanty zadáme dvojbodku a za ňou meno typu, v tomto prípade `Double`.
 
 ## Premenné
 
