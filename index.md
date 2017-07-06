@@ -171,13 +171,20 @@ fun main(args: Array<String>) {
 
 ### Definovanie typu
 
-Definovanie konštanty vieme uskutočniť aj s riadnym určeným typu. Napríklad pre vyššie definovanú konštantú **pí** to bude takto:
+Definovanie konštanty vieme uskutočniť aj riadnym určeným typu. Napríklad pre vyššie definovanú konštantú **pí** to bude takto:
 
 ```kotlin
 val pi: Double = 3.1415
 ```
 
 Za meno konštanty zadáme dvojbodku a za ňou meno typu, v tomto prípade `Double`.
+
+Rovnako sa určuje aj typ `Int` alebo `String`. Napríklad:
+
+```kotlin
+val retazec: String = "Toto je konštanta typu String"
+val celeCislo: Int = 42
+```
 
 ## Premenné
 
