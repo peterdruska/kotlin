@@ -410,6 +410,24 @@ fun main(args: Array<String>) {
 
 Teraz keď zadáme do konštanty `delay` hodnotu nula, vypíše sa reťazec z vetvy `else`.
 
+### Reťazce v podmienkach
+
+Do podmienok `if` sa dajú vkladať aj porovnávačky reťazcov. Napríklad, či obsahuje nejaký znak, akú má dĺžku alebo či sú reťazce rovnaké. Podmienok sa dá vymyslieť mnoho, tu sú základné z nich.
+
+Či reťazec obsahuje nejaký znak:
+
+```kotlin
+fun main(args: Array<String>) {
+    val sentence: String = "Odpoveď na otázku života, vesmíru a vôbec."
+
+    if (sentence.contains('e')) {
+        println("Reťazec obsahuje znak 'e'")
+    }
+}
+```
+
+Konštanta `sentence` je typu `String`, preto nad ňou môžeme zavolať funkciu (o funkciách neskôr) `contains()`, do ktorej vložíme symbol znaku, ktorý hľadáme.
+
 ## Polia, zoznamy a cykly
 
 ## Funkcie (metódy)
