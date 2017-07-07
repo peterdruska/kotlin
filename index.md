@@ -657,13 +657,13 @@ Treba spomenúť, že tu sa **odstraňuje konkrétny prvok zo zoznamu.** Ešte l
 
 ```kotlin
 val names = mutableListOf("Veronika", "Matej", "Jakub")
-names.add("Barbora")
+names.add("Barbora") //  Pridáme nový prvok
 println(names)
 
-names.remove("Matej")
+names.remove("Matej") // Odstránime konkrétny prvok
 println(names)
 
-names.removeAt(0)
+names.removeAt(0) // Odstránime prvok na indexe 0
 println(names)
 ```
 
