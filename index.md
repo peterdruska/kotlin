@@ -724,6 +724,18 @@ Rovnako sú cykly dôležité aj v programovaní. V jazyku Kotlin rozlišujeme d
 
 ### `For` cyklus
 
+Keď chceme niečo zopakovať toľkokrát, koľko určíme. Často sa používa na prechádzanie zoznamov:
+
+```kotlin
+val names = mutableListOf("Veronika", "Matej", "Jakub")
+
+for (name in names) {
+    println(name)
+}
+```
+
+Vymenovanie prvkov zoznamu `names` sa robí tak, že do zátvoriek za slovo `for` sa uvedie názov konštanty (`name`), do ktorej sa pri každom opakovaní vloží vždy nasledujúca hodnota zoznamu `names` takto: `(name in names)`. Slovo `in` znamená samozrejme *„v“*. Čiže tento cyklus sa dá prečítať takto **„pre každé meno v menách urob“**.
+
 ### `While` cyklus
 
 ## Funkcie (metódy)
