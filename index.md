@@ -543,7 +543,20 @@ if (PODMIENKA) {
 
 ## Podmienky `when`
 
-…
+Okrem podmienok `if` máme v jazyku Kotlin ešte aj podmienky `when`. Tento príkaz môžeme chápať ako prepínač, alebo rozhodovač stavov. Majme číslo, o ktorom chceme rozhodnúť, do ktorého intervalu patrí:
+
+```kotlin
+val x: Int = 42
+
+when (x) {
+    in 1..10 -> print("Číslo $x patrí do intervalu [1, 10]")
+    in 11..20 -> print("Číslo $x patrí do intervalu [11, 20]")
+    in 21..30 -> print("Číslo $x patrí do intervalu [21, 30]")
+    in 31..40 -> print("Číslo $x patrí do intervalu [31, 40]")
+    in 41..50 -> print("Číslo $x patrí do intervalu [41, 50]")
+    else -> print("Číslo $x nepatrí do žiadneho z uvedených intervalov.")
+}
+```
 
 ## Zoznamy
 
