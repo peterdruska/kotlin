@@ -801,8 +801,8 @@ var number: Int = 0
 var sum: Int = 0
 
 while (number <= 100000) {
-    sum = sum + number
-    number = number + 1 // treba ho zväčšovať o jedna, inak by to bol nekonečný cyklus
+    sum = sum + number // postupne k pôvodnej sume pridávame nové číslo a vložíme naspäť do sumy
+    number = number + 1 // vstupuje do podmienky, preto postupne navyšujeme
 }
 println("1 + 2 + … + 99999 + 100000 = $sum")
 ```
