@@ -617,13 +617,25 @@ S takým zoznamom sa dá robiť presne to isté, čo s číselným zoznamom. Zis
 
 ### Zmena zoznamu
 
-Povedzme, že chceme ten zoznam doplniť o ďalšie prvky. Urobiť to nemôžeme, lebo vo svojom základe je zoznam nemenný.
+Povedzme, že chceme zoznam `fib` doplniť o ďalšie prvky. Urobiť to nemôžeme, lebo vo svojom základe je zoznam nemenný, definovaný funkciou `listOf()`. Keď ho chceme dopĺňať, alebo prvky odstraňovať, musíme ho definovať ako meniteľný takto:
 
 ```kotlin
-val names = lstOf("Veronika", "Matej", "Jakub")
+val fib = mutableListOf(1, 1, 2, 3, 5, 8, 13, 21)
 ```
 
-Rozdiel medzi poliami a zoznamami je taký, že polia majú presne definovanú veľkosť, ktorá sa nedá meniť
+Teraz dokážeme do zoznamu pridať nové prvky pomocou funkcie `add()`:
+
+```kotlin
+fib.add(55)
+```
+
+Takéto volanie jednoducho pridá do zoznamu `fib` na jeho koniec nový prvok `55`. Keď chceme vložiť konkrétny prvok na konkrétne miesto, nie na koniec, musíme určiť index, na ktorý tento prvok vkladáme:
+
+```kotlin
+fib.add(8, 34)
+```
+
+V tomto prípade na index číslo `8` vkladáme do zoznamu číslo `34`.
 
 ## Funkcie (metódy)
 
