@@ -599,6 +599,22 @@ if (fib.contains(5)) {
 }
 ```
 
+Zoznamy nemusia byť len celočíselné, ako je to v prípade zoznamu `fib`, ale aj plné reťazcov:
+
+```kotlin
+val names = listOf("Veronika", "Matej", "Jakub")
+```
+
+Môžu byť aj zmiešané:
+
+```kotlin
+val allOrNothing = listOf("Peter", 42, -3.14)
+```
+
+Zoznam `allOrNothing` obsahuje jeden reťazec, jedno celé číslo a jedno reálne číslo. S ním sa pracuje tiež rovnako, ako s akýmkoľvek iným zoznamom.
+
+S takým zoznamom sa dá robiť presne to isté, čo s číselným zoznamom. Zisťovať, či obsahuje nejaký prvok, či je prázdny alebo získať konkrétny prvok zoznamu.
+
 ### Zmena zoznamu
 
 Povedzme, že chceme ten zoznam doplniť o ďalšie prvky. Urobiť to nemôžeme, lebo vo svojom základe je zoznam nemenný.
