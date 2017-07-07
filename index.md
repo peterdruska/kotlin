@@ -751,7 +751,7 @@ V každom opakovaní (iterácii) sa do konštanty `element` dostanú postupne pr
 V cykle sa dá prejsť každý znak reťazca:
 
 ```kotlin
-val name = "Janko Hraško"
+val name: String = "Janko Hraško"
 
 for (char in name) {
     println(char)
@@ -763,7 +763,7 @@ Preto je to možné, lebo reťazce sú tiež kolekcie. Konkrétne kolekcie znako
 Zaujímavé je cykly spájať s podmienkami. Napríklad ak chceme spočítať, koľko znakov **o** sa nachádza v reťazci:
 
 ```kotlin
-val name = "Janko Hraško"
+val name: String = "Janko Hraško"
 var count: Int = 0
 
 for (char in name) {
