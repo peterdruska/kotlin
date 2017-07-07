@@ -734,7 +734,45 @@ for (name in names) {
 }
 ```
 
-Vymenovanie prvkov zoznamu `names` sa robí tak, že do zátvoriek za slovo `for` sa uvedie názov konštanty (`name`), do ktorej sa pri každom opakovaní vloží vždy nasledujúca hodnota zoznamu `names` takto: `(name in names)`. Slovo `in` znamená samozrejme *„v“*. Čiže tento cyklus sa dá prečítať takto **„pre každé meno v menách urob“**.
+Vymenovanie prvkov zoznamu `names` sa robí tak, že do zátvoriek za slovo `for` sa uvedie názov konštanty (`name`), do ktorej sa pri každom opakovaní vloží vždy nasledujúca hodnota zoznamu `names` takto: `(name in names)`. Slovo `in` znamená samozrejme *„v“*. Čiže tento cyklus sa dá prečítať takto **„pre každé meno v menách opakuj“**.
+
+V cykle vieme prechádzať akýkoľvek zoznam:
+
+```kotlin
+val allOrNothing = listOf("Peter", 42, -3.14)
+
+for (element in allOrNothing) {
+    println(element)
+}
+```
+
+V každom opakovaní (iterácii) sa do konštanty `element` dostanú postupne prvky poľa `allOrNothing`.
+
+V cykle sa dá prejsť každý znak reťazca:
+
+```kotlin
+val name = "Janko Hraško"
+
+for (char in name) {
+    println(char)
+}
+```
+
+Preto je to možné, lebo reťazce sú tiež kolekcie. Konkrétne kolekcie znakov.
+
+Zaujímavé je cykly spájať s podmienkami. Napríklad ak chceme spočítať, koľko znakov **o** sa nachádza v reťazci:
+
+```kotlin
+val name = "Janko Hraško"
+var count: Int = 0
+
+for (char in name) {
+    if (char == 'o') {
+        count = count + 1
+    }
+}
+println("Písmeno „o“ sa v reťazci „$name“ nachádza $count krát.")
+```
 
 ### `While` cyklus
 
