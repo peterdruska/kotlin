@@ -541,17 +541,43 @@ if (PODMIENKA) {
 }
 ```
 
-## Polia, zoznamy a cykly
+## Zoznamy a cykly
 
-Ako tvoje budúce *ja* pochopí, polia sú strašne sexy. Jednorozmerné, dvojrozmerné, trojrozmerné, štvorrozmerné, … n–rozmerné. Tvoja babička okopkáva cibuľku na tých dvojrozmerných, lebo ležia plocho na zemi. Aby si sa čo i len priblížil/a svojej babičke, musíš začať najskôr poliami jednorozmernými. V školách nimi strašia tak, že ich nazývajú „vektory“ alebo „matice“, Feynmnan ich nazýva „šípkami“, my ich budeme volať **polia**. Niečo veľmi podobné poliam budeme nazývať **zoznamy**. Všetko si ukážeme.
+Zoznamy sú super a neskôr zistíš, prečo.
 
-Majme pole čísel, ktoré sa definuje volaním funkcie `arrayOf()`:
+Majme **zoznam** čísel, ktoré sa definuje volaním funkcie `listOf()`:
 
 ```kotlin
-val fib = arrayOf(1, 1, 2, 3, 5, 8, 13, 21)
+val fib = listOf(1, 1, 2, 3, 5, 8, 13, 21)
 ```
 
 (Kto zistí, o akú postupnosť čísel sa jedná a aké by boli ďalšie čísla?)
+
+Keď chceme vypísať konkrétny prvok tohto zoznamu, jednoducho to spravíme volaním mena zoznamu `fib` s uvedením indexu prvku do hranatých zázvoriek takto:
+
+```kotlin
+println(fib[0]) // Vypíše prvé číslo 1
+```
+
+Číslovanie indexov začína pri zoznamoch od nuly. Vypísanie posledného prvku v terajšom zozname sa dá urobiť takto:
+
+```kotlin
+println(fib[7]) // Vypíše prvé číslo 21
+```
+
+Ale lepšie to je urobiť takto:
+
+```kotlin
+println(fib.last()) // Vypíše posledný prvok bez ohľadu na veľkosť zoznamu
+```
+
+Povedzme, že chceme ten zoznam doplniť o ďalšie prvky. Urobiť to nemôžeme, lebo vo svojom základe je zoznam nemenný.
+
+```kotlin
+val names = lstOf("Veronika", "Matej", "Jakub")
+```
+
+Rozdiel medzi poliami a zoznamami je taký, že polia majú presne definovanú veľkosť, ktorá sa nedá meniť
 
 ## Funkcie (metódy)
 
