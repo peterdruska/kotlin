@@ -794,7 +794,7 @@ Dobre, aby sme si naliali čistej Kofoly, vypísať stotisíc čísel nie je až
 1 + 2 + 3 + 4 + 5 + … + 99999 + 100000 = ?
 ```
 
-V matematike by sme na to rozžhavili [vzorec na výpočet súčtu aritmetickej postupnosti](https://sk.wikipedia.org/wiki/Aritmetická_postupnosť). Programovanie má v tomto obrovskú výhodu, že veci si vďaka tomu môžeme zjednodušiť. Samozrejme, matematike sa v programovaní nevyhneme, skôr naopak, je tu prítomná neustále. Súčet aritmetickej postupnosti do 100000 vieme urobiť takto:
+V matematike by sme na to rozžhavili [vzorec na výpočet súčtu aritmetickej postupnosti](https://sk.wikipedia.org/wiki/Aritmetická_postupnosť). Programovanie má v tomto obrovskú výhodu, že výpočty si vďaka tomu môžeme zjednodušiť. Samozrejme, matematike sa v programovaní nevyhneme, skôr naopak, je tu prítomná neustále. Súčet aritmetickej postupnosti do 100000 vieme urobiť takto:
 
 ```kotlin
 var number: Int = 0
