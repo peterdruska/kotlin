@@ -571,6 +571,18 @@ when (number) {
 }
 ```
 
+Dá sa aplikovať aj na reťazce:
+
+```kotlin
+val name: String = "Peter"
+
+when (name) {
+    "Peter" -> println("$name, urob niečo!")
+    "Veronika" -> println("$name, oddýchni si!")
+    else -> println("$name, teba nepoznám!")
+}
+```
+
 ## Zoznamy
 
 Zoznamy sú super a neskôr zistíš, prečo.
