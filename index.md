@@ -549,12 +549,25 @@ Okrem podmienok `if` máme v jazyku Kotlin ešte aj podmienky `when`. Tento prí
 val x: Int = 42
 
 when (x) {
-    in 1..10 -> print("Číslo $x patrí do intervalu [1, 10]")
+    in 1..10 -> print("Číslo $x patrí do intervalu [1, 10]")
     in 11..20 -> print("Číslo $x patrí do intervalu [11, 20]")
     in 21..30 -> print("Číslo $x patrí do intervalu [21, 30]")
     in 31..40 -> print("Číslo $x patrí do intervalu [31, 40]")
     in 41..50 -> print("Číslo $x patrí do intervalu [41, 50]")
     else -> print("Číslo $x nepatrí do žiadneho z uvedených intervalov.")
+}
+```
+
+Vetva `else` je na to, aby sme zachytili aj možnosť, ktorá ja iná, ako všetky vymenované v prepínači. Prípadne ak chceme iba zistiť, o aké číslo sa jedná a vypísať jeho slovné pomenovanie:
+
+```kotlin
+val number: Int = 2
+
+when (number) {
+    1 -> print("Jeden")
+    2 -> print("Dva")
+    3 -> print("Tri")
+    else -> print("Číslo neviem pomenovať.")
 }
 ```
 
