@@ -583,6 +583,22 @@ Vymeniť hodnotu na konkrétnom mieste je jednoduché a robí sa takto:
 fib[0] = 4 // Miesto pôvodnej 1 na nultom mieste bude teraz číslo 4
 ```
 
+Dá sa rozhodnúť, či je zoznam prázdny volaním funkcie `isEmpty()` nad daným zoznamom:
+
+```kotlin
+if (fib.isEmpty()) {
+    println("Zoznam je prázdny")
+}
+```
+
+Prípadne zistiť, či sa v zozname nachádza konkrétny prvok:
+
+```kotlin
+if (fib.contains(5)) {
+    println("Zoznam obsahuje číslo 5")
+}
+```
+
 ### Zmena zoznamu
 
 Povedzme, že chceme ten zoznam doplniť o ďalšie prvky. Urobiť to nemôžeme, lebo vo svojom základe je zoznam nemenný.
