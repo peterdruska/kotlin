@@ -720,7 +720,7 @@ Každý deň si umývaš zuby, obliekaš sa. Každý deň ráno vstaneš, naješ
 Rovnako sú cykly dôležité aj v programovaní. V jazyku Kotlin rozlišujeme dva druhy cyklov:
 
 - `for` cyklus s pevným počtom opakovaní. To je také, keď povieme, že niečo sa zopakuje 365 krát.
-- `while` cyklus s opakovaním, kým je splnená podmienka. To je také, ako keď ti mama povie: *„pokiaľ si neupraceš izbu, nepôjdeš von!“* Kľúčová je tá podmienka *„pokiaľ si neupraceš izbu“.
+- `while` cyklus s opakovaním, kým je splnená podmienka. To je také, ako keď ti mama povie: *„Keď si upraceš izbu, pôjdeš von!“* Kľúčová je tá podmienka *„keď si upraceš izbu“.* Keď je podmienka splnená, cyklus škriepok končí.
 
 ### `For` cyklus
 
