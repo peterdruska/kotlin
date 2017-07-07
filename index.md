@@ -559,10 +559,10 @@ Keď chceme vypísať konkrétny prvok tohto zoznamu, jednoducho to spravíme vo
 println(fib[0]) // Vypíše prvé číslo 1
 ```
 
-Číslovanie indexov začína pri zoznamoch od nuly. Vypísanie posledného prvku v terajšom zozname sa dá urobiť takto:
+**Číslovanie indexov začína pri zoznamoch od nuly.** Na to pamätaj, budeš to potrebovať! Vypísanie posledného prvku v terajšom zozname sa dá urobiť takto:
 
 ```kotlin
-println(fib[7]) // Vypíše prvé číslo 21
+println(fib[7]) // Vypíše posledné číslo 21
 ```
 
 Ale lepšie to je urobiť takto:
@@ -570,6 +570,20 @@ Ale lepšie to je urobiť takto:
 ```kotlin
 println(fib.last()) // Vypíše posledný prvok bez ohľadu na veľkosť zoznamu
 ```
+
+Takto sa dá vypísať prvý prvok:
+
+```kotlin
+println(fib.first()) // Vypíše prvý prvok
+```
+
+Vymeniť hodnotu na konkrétnom mieste je jednoduché a robí sa takto:
+
+```kotlin
+fib[0] = 4 // Miesto pôvodnej 1 na nultom mieste bude teraz číslo 4
+```
+
+### Zmena zoznamu
 
 Povedzme, že chceme ten zoznam doplniť o ďalšie prvky. Urobiť to nemôžeme, lebo vo svojom základe je zoznam nemenný.
 
