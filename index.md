@@ -388,7 +388,7 @@ fun main(args: Array<String>) {
 
 Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
 
-## Podmienky
+## Podmienky `if`
 
 Autobus raz mešká, inokedy nie. Cestujúcim nemôžeme vypísať informáciu *„autobus mešká 0 minút“*. Bolo by to trochu … *blbé*. Namiesto toho musíme zistiť, o aké meškanie sa jedná a rozlíšiť dva rôzne prípady.
 
@@ -540,6 +540,10 @@ if (PODMIENKA) {
     }
 }
 ```
+
+## Podmienky `when`
+
+…
 
 ## Zoznamy
 
