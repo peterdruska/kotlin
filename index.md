@@ -635,7 +635,11 @@ Takéto volanie jednoducho pridá do zoznamu `fib` na jeho koniec nový prvok `5
 fib.add(8, 34)
 ```
 
-V tomto prípade na index číslo `8` vkladáme do zoznamu číslo `34`.
+V tomto prípade na index číslo `8` vkladáme do zoznamu číslo `34`. Je dobré si priebežný stav zoznamu kontrolovať jednoduchým výpisom:
+
+```kotlin
+println(fib)
+```
 
 ## Funkcie (metódy)
 
