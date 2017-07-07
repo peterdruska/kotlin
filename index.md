@@ -715,6 +715,17 @@ Cyklus, to je niečo, čo sa neustále opakuje. Napríklad východ Slnka sa opak
 
 [![Sunrise Sunset Cycle](images/sunrise_sunset.gif)](images/sunrise_sunset.gif)
 
+Každá deň si umývaš zuby, obliekaš sa. Každý deň ráno vstaneš, naješ sa približne v ten istý čas alebo keď si hladný/hladná. Celý náš život je prežívaný v cykloch.
+
+Rovnako sú cykly dôležité aj v programovaní. V jazyku Kotlin rozlišujeme dva druhy cyklov:
+
+- `for` cyklus s pevným počtom opakovaní,
+- `while` cyklus s opakovaním, kým je splnená podmienka.
+
+### `For` cyklus
+
+### `While` cyklus
+
 ## Funkcie (metódy)
 
 ## Objekty a triedy
