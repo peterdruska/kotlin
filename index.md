@@ -776,6 +776,24 @@ println("Písmeno „o“ sa v reťazci „$name“ nachádza $count krát.")
 
 ### `While` cyklus
 
+Kým je splnená riadiaca podmienka, cyklus bude bežať. Takže bacha na zacyklenie, na tzv. nekonečný cyklus (ang. infinite loop). Napríklad skúsme to najprv veľmi jednoducho, že keď číslo dosiahne hodnotu 100000 (stotisíc), tak cyklus skončí. V jeho tele postupne tieto čísla vypíšme. Vypisovať ich ručne by dalo jednému asi trochu zabrať:
+
+```kotlin
+var number: Int = 0
+while (number <= 100000) {
+    println(number)
+    number = number + 1 // treba ho zväčšovať o jedna, inak by to bol nekonečný cyklus
+}
+```
+
+Premennú `number` musíme nechať zväčšiť o `1`, pretože sa touto hodnotou chceme dostať až na 100000. Bez zväčšovania by to nenastalo a cyklus by donekonečna vypisoval hodnotu nula. Nikdy by sa nezastavil.
+
+Dobre, aby sme si naliali čistej Kofoly, vypísať stotisíc čísel nie je až taká práca. Čo v prípade, keď všetky tie čísla chceme spočítať?
+
+```kotlin
+1 + 2 + 3 + 4 + 5 + … + 99999 + 100000 = ?
+```
+
 ## Funkcie (metódy)
 
 ## Objekty a triedy
