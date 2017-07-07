@@ -623,7 +623,7 @@ Povedzme, že chceme zoznam `fib` doplniť o ďalšie prvky. Urobiť to nemôže
 val fib = mutableListOf(1, 1, 2, 3, 5, 8, 13, 21)
 ```
 
-Teraz dokážeme do zoznamu pridať nové prvky pomocou funkcie `add()`:
+Teraz dokážeme do zoznamu **pridať nové prvky** pomocou funkcie `add()`:
 
 ```kotlin
 fib.add(55)
@@ -639,6 +639,32 @@ V tomto prípade na index číslo `8` vkladáme do zoznamu číslo `34`. Je dobr
 
 ```kotlin
 println(fib)
+```
+
+Zo zoznamu vieme **prvky aj odstraňovať** pomocou funkcie `removeAt()`:
+
+```kotlin
+fib.removeAt(3)
+```
+
+Táto funkcia odstráni zo zoznamu prvok na konkrétnom indexe. Prípadne sa dá použiť funkcia `remove()`:
+
+```kotlin
+fib.remove(13)
+```
+
+Tu musíme spomenúť, že tu sa odstraňuje konkrétny prvok zo zoznamu. Ešte lepšie to vidno na zozname mien `names`, ktorý ale musíme definovať ako meniteľný:
+
+```kotlin
+val names = mutableListOf("Veronika", "Matej", "Jakub")
+names.add("Barbora")
+println(names)
+
+names.remove("Matej")
+println(names)
+
+names.removeAt(0)
+println(names)
 ```
 
 ## Funkcie (metódy)
