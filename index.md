@@ -711,6 +711,10 @@ println(names)
 
 ## Cykly
 
+Cyklus, to je niečo, čo sa neustále opakuje. Napríklad východ Slnka sa opakuje každý deň. Rovnako aj jeho západ.
+
+[![Sunrise Sunset Cycle](images/sunrise_sunset.gif)](images/sunrise_sunset.gif)
+
 ## Funkcie (metódy)
 
 ## Objekty a triedy
