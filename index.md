@@ -541,7 +541,7 @@ if (PODMIENKA) {
 }
 ```
 
-## Zoznamy a cykly
+## Zoznamy
 
 Zoznamy sú super a neskôr zistíš, prečo.
 
@@ -666,6 +666,8 @@ println(names)
 names.removeAt(0)
 println(names)
 ```
+
+## Cykly
 
 ## Funkcie (metódy)
 
