@@ -653,7 +653,7 @@ Táto funkcia odstráni zo zoznamu prvok na konkrétnom indexe. Prípadne sa dá
 fib.remove(13)
 ```
 
-Tu musíme spomenúť, že tu sa odstraňuje konkrétny prvok zo zoznamu. Ešte lepšie to vidno na zozname mien `names`, ktorý ale musíme definovať ako meniteľný:
+Treba spomenúť, že tu sa **odstraňuje konkrétny prvok zo zoznamu.** Ešte lepšie to ale vidno na zozname mien `names`, ktorý musíme najskôr definovať ako meniteľný:
 
 ```kotlin
 val names = mutableListOf("Veronika", "Matej", "Jakub")
