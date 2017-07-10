@@ -809,4 +809,6 @@ println("1 + 2 + … + 99999 + 100000 = $sum")
 
 ## Funkcie (metódy)
 
+…
+
 ## Objekty a triedy
