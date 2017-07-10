@@ -885,7 +885,7 @@ A je to!
 
 ### Funkcie s výstupným parametrom
 
-Ako sme do funkcie dali vstúpiť hodnote (typu `String`), tak vieme dať hodnote aj vystúpiť z funkcie. Napríklad si vymyslime funkciu, ktorej výstupom bude dnešný dátum typu `Date`:
+Ako sme do funkcie dali vstúpiť hodnote (typu `String`), tak vieme dať hodnote aj vystúpiť z funkcie. Napríklad si vymyslime takú, ktorej výstupom bude dnešný dátum typu `Date`:
 
 ```kotlin
 fun getCurrentDate(): Date {
@@ -893,9 +893,9 @@ fun getCurrentDate(): Date {
 }
 ```
 
-Do tejto funkcie `getCurrentDate()` nevstupuje žiadna hodnota žiadneho typu, ale vystupuje jedna typu `Date`. Novinkou pri týchto funkciách, ktoré **majú návratovú hodnotu**, je posledný príkaz `return`. Tu bude hodnota, volanie funkcie, čokoľvek, čo vrátime z funkcie a musí to byť rovnakého typu, ako je uvedené v definovaní funkcie.
+Do tejto funkcie `getCurrentDate()` nevstupuje žiadna hodnota žiadneho typu, ale vystupuje jedna typu `Date`. Novinkou pri týchto funkciách, ktoré **majú návratovú hodnotu**, je posledný príkaz `return`. Tu bude hodnota, ktorú vrátime z funkcie a musí byť rovnakého typu, ako je uvedené v definovaní vlastnej funkcie.
 
-Zavolaním funkcie získame skutočne dnešný dátum, ten musíme však vhodne spracovať, aby sme s ním mohli niečo urobiť:
+Zavolaním funkcie v inej funkcii získame skutočne dnešný dátum, ten musíme však vhodne spracovať, aby sme s ním mohli niečo urobiť:
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -903,6 +903,8 @@ fun main(args: Array<String>) {
     println(currentDate)
 }
 ```
+
+V tomto prípade **navrátenú hodnotu** uložíme do konštanty `currentDate`, ktorú následnej vypíšeme pomocou funkcie `println()`.
 
 ### Funkcie so vstupným i výstupným parametrom
 
