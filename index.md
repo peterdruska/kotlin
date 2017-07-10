@@ -866,6 +866,14 @@ fun printWithSpaces(text: String) {
 }
 ```
 
-Zapís `printWithSpaces(**text: String**)` hovoré o tom
+Zapís `printWithSpaces(text: String)` hovorí o tom, že do funkcie bude **vstupovať** reťazec (typ `String`), ktorý sa vloží do konštanty menom `text`. Čiže keď zavoláme túto konštantu vo vnútri funkcie `printWithSpaces()`, máme v nej uložený reťazec, ktorý sme vložili do funkcie pri jej volaní. Napríklad takto:
+
+```kotlin
+fun main(args: Array<String>) {
+    printWithSpaces("Programovanie je super!")
+}
+```
+
+Keď sa takto funkcia zavolá, začne sa jej vnútro vykonávať. Vstupuje do nej reťažec `Programovanie je super!`, ktorý sa začne spracovávať `for` cyklom znak po znaku. Každý znak vypíšeme volaním funkcie `print()` s tým, že za ten znak pridáme medzeru: `char + " "`.
 
 ## Objekty a triedy
