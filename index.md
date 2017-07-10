@@ -815,6 +815,8 @@ Sú to malé kúsky kódu, ktoré niečo robia. Niečo, čo v celom programe pou
 
 Ukážme si, ako na to v jazyku Kotlin.
 
+### Holé funkcie
+
 Funkcia sa definuje takto:
 
 ```kotlin
@@ -842,6 +844,8 @@ fun main(args: Array<String>) {
 ```
 
 Spustením programu sa teraz skutočne vypíše *Hello World!* Toto je však veľmi jednoduché použitie funkcie na to, aké magické čáry–máry to dokáže.
+
+### Funkcie so vstupným parametrom
 
 Skúsme teraz do zadaného textu, napr.:
 
@@ -874,5 +878,9 @@ fun main(args: Array<String>) {
 ```
 
 Keď sa takto funkcia zavolá, začne sa jej vnútro vykonávať. Vstupuje do nej reťazec `Programovanie je super!`, ktorý sa uloží do konštanty `text`. Ten sa začne spracovávať `for` cyklom znak po znaku. Každý znak vypíšeme volaním funkcie `print()` s tým, že za ten znak pridáme medzeru: `char + " "`.
+
+### Funkcie s výstupným parametrom
+
+### Funkcie so vstupným i výstupným parametrom
 
 ## Objekty a triedy
