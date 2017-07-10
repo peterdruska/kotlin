@@ -841,6 +841,31 @@ fun main(args: Array<String>) {
 }
 ```
 
-Spustením programu sa teraz skutočne vypíše *Hello World!*
+Spustením programu sa teraz skutočne vypíše *Hello World!* Toto je však veľmi jednoduché použitie funkcie na to, aké magické čáry–máry to dokáže.
+
+Skúsme teraz do zadaného textu, napr.:
+
+```kotlin
+Programovanie je super!
+```
+
+Vložiť medzery po každom znaku tak, že výsledok bude takýto:
+
+```kotlin
+P r o g r a m o v a n i e   j e   s u p e r !
+```
+
+Do funkcie, ktorú si vytvoríme, budeme môcť zadať ľubovoľný text pri jej zavolaní. Preto bude vyzerať takto:
+
+```kotlin
+fun printWithSpaces(text: String) {
+    for (char in text) {
+        print(char + " ") // Vypíše znak po znaku, za ktorým nasleduje medzera
+    }
+    println() // Vypíše prázdny riadok
+}
+```
+
+Zapís `printWithSpaces(**text: String**)` hovoré o tom
 
 ## Objekty a triedy
