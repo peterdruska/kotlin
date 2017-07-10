@@ -908,4 +908,36 @@ V tomto prípade **navrátenú hodnotu** uložíme do konštanty `currentDate`, 
 
 ### Funkcie so vstupným i výstupným parametrom
 
+Funkcie môže byť aj také, že hodnoty do nich **vstupujú i vystupujú**. Zistime napríklad maximum z dvoch čísel:
+
+```kotlin
+fun max(a: Int, b: Int): Int {
+    if (a >= b) {
+        return a
+    } else {
+        return b
+    }
+}
+```
+
+Ako vidíme, do funkcie `max()` **vstupujú** dva parametre `a` a `b`, obidva typu `Int`. **Výstupná** hodnota má byť taktiež typu `Int`. Vo vnútri funkcie je podmienka, ktorá zisťuje, či hodnota v konštante `a` je väčšia od `b`, v takom prípade funkcia vráti hodnota `a` príkazom `return a`. Inak vráti hodnotu b príkazom `return b`.
+
+Použitie funkcie `max()` bude napríklad takéto:
+
+```kotlin
+fun main(args: Array<String>) {
+    val maximum = max(12, 42)
+    println(maximum)
+}
+```
+
+Najprv do konštanty `maximum` vložíme výsledok volania funkcie `max(12, 42)`.
+
+```kotlin
+a = 12
+b = 42
+```
+
+Funkcia zistí, že `b` je väčšie ako `a` a hodnotu `42` následne vráti ako svoju návratovú hodnotu, ktorá je uložená do konštanty `maximum`. Jej hodnotu potom vypíšeme riadkom `println(maximum)`.
+
 ## Objekty a triedy
