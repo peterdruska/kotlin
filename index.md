@@ -859,7 +859,7 @@ Vložiť medzery po každom znaku tak, že výsledok bude takýto:
 P r o g r a m o v a n i e   j e   s u p e r !
 ```
 
-Do funkcie, ktorú si vytvoríme, budeme môcť zadať ľubovoľný text pri jej zavolaní. Preto bude vyzerať takto:
+Do funkcie, ktorú si vytvoríme, budeme môcť zadať ľubovoľný text pri jej zavolaní, nielen ten vyššie. Preto bude vyzerať takto:
 
 ```kotlin
 fun printWithSpaces(text: String) {
@@ -869,7 +869,7 @@ fun printWithSpaces(text: String) {
 }
 ```
 
-Zapís `printWithSpaces(text: String)` hovorí o tom, že do funkcie bude **vstupovať** reťazec (typ `String`), ktorý sa vloží do konštanty menom `text`. Zavolajme túto funkciu vo funkcii `main`:
+Vidíme, že funkcia ako taká neobsahuje text, ktorým ňou chceme upravovať. Zápis `printWithSpaces(text: String)` hovorí o tom, že do funkcie bude **vstupovať** reťazec (typ `String`), ktorý sa vloží do konštanty menom `text`. Zavolajme túto funkciu vo funkcii `main`:
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -877,7 +877,11 @@ fun main(args: Array<String>) {
 }
 ```
 
+Tu už vidno text, ktorý sme si na začiatku určili, ako ukážku.
+
 Keď sa takto funkcia zavolá, začne sa jej vnútro vykonávať. Vstupuje do nej reťazec `Programovanie je super!`, ktorý sa uloží do konštanty `text`. Ten sa začne spracovávať `for` cyklom znak po znaku. Každý znak vypíšeme volaním funkcie `print()` s tým, že za ten znak pridáme medzeru: `char + " "`.
+
+A je to!
 
 ### Funkcie s výstupným parametrom
 
