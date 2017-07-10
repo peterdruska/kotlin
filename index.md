@@ -862,11 +862,10 @@ fun printWithSpaces(text: String) {
     for (char in text) {
         print(char + " ") // Vypíše znak po znaku, za ktorým nasleduje medzera
     }
-    println() // Vypíše prázdny riadok
 }
 ```
 
-Zapís `printWithSpaces(text: String)` hovorí o tom, že do funkcie bude **vstupovať** reťazec (typ `String`), ktorý sa vloží do konštanty menom `text`. Čiže keď zavoláme túto konštantu vo vnútri funkcie `printWithSpaces()`, máme v nej uložený reťazec, ktorý sme vložili do funkcie pri jej volaní. Napríklad takto:
+Zapís `printWithSpaces(text: String)` hovorí o tom, že do funkcie bude **vstupovať** reťazec (typ `String`), ktorý sa vloží do konštanty menom `text`. Zavolajme túto funkciu vo funkcii `main`:
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -874,6 +873,6 @@ fun main(args: Array<String>) {
 }
 ```
 
-Keď sa takto funkcia zavolá, začne sa jej vnútro vykonávať. Vstupuje do nej reťažec `Programovanie je super!`, ktorý sa začne spracovávať `for` cyklom znak po znaku. Každý znak vypíšeme volaním funkcie `print()` s tým, že za ten znak pridáme medzeru: `char + " "`.
+Keď sa takto funkcia zavolá, začne sa jej vnútro vykonávať. Vstupuje do nej reťazec `Programovanie je super!`, ktorý sa uloží do konštanty `text`. Ten sa začne spracovávať `for` cyklom znak po znaku. Každý znak vypíšeme volaním funkcie `print()` s tým, že za ten znak pridáme medzeru: `char + " "`.
 
 ## Objekty a triedy
