@@ -940,4 +940,10 @@ b = 42
 
 Funkcia zistí, že `b` je väčšie ako `a` a hodnotu `42` následne vráti ako svoju návratovú hodnotu, ktorá je uložená do konštanty `maximum`. Jej hodnotu potom vypíšeme riadkom `println(maximum)`.
 
+Čiže ešte raz, vstupujú dve hodnoty, vystupuje jedna.
+
+Funkcie sú mocný nástroj programátora, no pracujeme v objektovo orientovanom jazyku, preto musíme zájsť ešte ďalej. Potom sa odkryjú nekonečné možnosti vesmíru programovania, v ktorom sa dá urobiť čokoľvek. Naprogramovať jednoduchá hra, alebo umelá inteligencia riadiacia auto.
+
 ## Objekty a triedy
+
+…
