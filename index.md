@@ -831,6 +831,14 @@ fun helloWorld() {
 }
 ```
 
-**POZOR!** Aby sme však predišli chybám, funkcie sa nedefinujú do žiadnej inej funkcie. Čiže **akúkoľvek funkciu napíšeme mimo funkciu `main`**.
+**BACHA!** Aby sme však predišli chybám, funkcie sa nedefinujú do žiadnej inej funkcie. Čiže **akúkoľvek funkciu napíšeme mimo funkciu `main`**.
+
+Keď chceme funkciu `helloWorld()` zavolať, aby vypísala požadovaný text, musíme tak učiniť v inej funkcii. Pre zjednodušenie ju zavoláme vo funkcii `main` tak, že napíšeme jej meno a prázdne okrúhle zátvorky:
+
+```kotlin
+fun main(args: Array<String>) {
+    helloWorld()
+}
+```
 
 ## Objekty a triedy
