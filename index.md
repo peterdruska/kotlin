@@ -841,4 +841,6 @@ fun main(args: Array<String>) {
 }
 ```
 
+Spustením programu sa teraz skutočne vypíše *Hello World!*
+
 ## Objekty a triedy
