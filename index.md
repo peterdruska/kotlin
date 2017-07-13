@@ -946,4 +946,16 @@ Funkcie sú mocný nástroj programátora, no pracujeme v objektovo orientovanom
 
 ## Objekty a triedy
 
+### Objekty okolo nás
+
+### Definovanie triedy
+
+### Objekty danej triedy
+
+### Vlastnosti
+
+### Metódy
+
+### Dedičnosť
+
 …
