@@ -958,4 +958,12 @@ Funkcie sú mocný nástroj programátora, no pracujeme v objektovo orientovanom
 
 ### Dedičnosť
 
+### Abstraktná trieda
+
+### Rozhranie `interface`
+
+### Trieda vymenovaného typu `enum`
+
+### X
+
 …
