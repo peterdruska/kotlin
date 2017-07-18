@@ -991,6 +991,17 @@ Vymyslieť sa ich dá veľa. Presne podľa toho, čo akýkoľvek človek dokáž
 
 ### Definovanie triedy
 
+Programovanie ide ďalej, dáva nám moc čarovnej paličky Heňa Hrnčiara na to, aby sme mohli vytvárať triedy, ktoré v reálnom svete v podstate ani neexistujú rovnako, ako tie, čo existujú. Väčšinou však budeme kopírovať reálny svet.
+
+Vytvorme teraz triedu s názvom `Person`:
+
+```Kotlin
+class Person() {
+}
+```
+
+Je to veľmi jednoduché. Najprv ide vyhradené slovo `class`, za ktorým nasleduje vlastné meno triedy `Person`. To volíme my, dávame mu veľké písmeno, lebo tak sme sa dohodli, aby sa ľahšie odlišovalo od názov premenných a konštánt, ktoré sa píšu s malými začiatočnými písmenami. Za menom idú (zatiaľ) prádzne okrúhle zátvorky `()` a za nimi blok uzavretý v zložených zátvorkách `{}`.
+
 ### Objekty danej triedy
 
 ### Vlastnosti
