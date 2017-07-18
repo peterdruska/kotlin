@@ -1085,7 +1085,7 @@ adam.speak()
 adam.greet("Eva")
 ```
 
-Do vlastnosti `name` sme týmto vložili textovú (`String`) hodnotu `Adam` a do vlastnosti `age` celočíselnú (`Int`) hodnotu `27`.
+Do vlastnosti `name` sme týmto vložili textovú (`String`) hodnotu `Adam` a do vlastnosti `age` celočíselnú (`Int`) hodnotu `27`. Meno je nemenné, preto ho definujeme vyhradeným slovom `val` pre konštantu a vek sa mení každý rok, preto ho definujeme vyhradeným slovom `var` pre premennú.
 
 ### Dedičnosť
 
