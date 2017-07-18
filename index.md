@@ -1077,7 +1077,7 @@ Tento zápis:
 Person(val name: String, var age: Int)
 ```
 
-je to, čo je dôležité. Sú to vlastnosti danej triedy, ktoré pomáhajú lepšie rozpoznať konkrétneho človeka (objekt). Preto Adama vytvorime teraz takto:
+je to, čo je dôležité. Sú to vlastnosti `name`, `age` danej triedy, ktoré pomáhajú lepšie rozpoznať konkrétneho človeka (objekt). Preto Adama vytvorime teraz takto:
 
 ```kotlin
 val adam = Person("Adam", 27)
