@@ -974,6 +974,7 @@ Trieda **človek** má napríklad tieto vlastnosti:
 - farba očí
 - farba vlasov
 - dátum narodenia
+- povolanie
 
 Trieda **človek** má napríklad tieto metódy:
 
