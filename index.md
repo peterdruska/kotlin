@@ -1117,6 +1117,8 @@ println(yearOfBirth) // hodnotu vypíšeme
 
 Teraz program vypíše rok narodenia Adama, ak je rok 2017 a on má v tom roku 27 rokov.
 
+*Objekty tried môžeme volať v cykloch, v podmienkach, robiť s nimi rôzne zaujímavé veci. Hlavne nám slúžia na pohodlnejšiu prácu s dátami, ktoré program spracováva a vytvára.*
+
 ### Dedičnosť
 
 ### Abstraktná trieda
