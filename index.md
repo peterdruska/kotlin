@@ -948,6 +948,46 @@ Funkcie sú mocný nástroj programátora, no pracujeme v objektovo orientovanom
 
 ### Objekty okolo nás
 
+Keď sa pozrieme na svet, ktorý nás obklopuje, dívajme sa pozorne. Lebo to, čo vidíme, sú objekty, ktoré môžeme zaradiť do tried. Napríklad máme triedu **pes**, ktorej objektami sú tie konkrétne psy, ktoré sme dnes stretli cestou do školy alebo práce.
+
+Tak isto sa to dá tvrdiť o čomkoľvek. Obklopujú nás triedy:
+
+- strom
+- dom
+- auto
+- motorka
+- ulica
+- človek
+- …
+
+Tieto triedy ešte neurčujú mňa, teba, kohoľvek alebo čokoľvek v priestoročase. Až **tvoj výskyt na tejto planéte definuje teba ako konkrétny objekt triedy človek**. Tvoji rodičia sú tiež objektami triedy človek.
+
+#### Vlastnosti človeka
+
+Trieda **človek** má napríklad tieto vlastnosti:
+
+- pohlavie
+- vek
+- farba pleti
+- vierovyznanie
+- štátna príslušnosť
+- farba očí
+- farba vlasov
+- dátum narodenia
+
+Trieda **človek** má napríklad tieto metódy:
+
+- najedzSa()
+- vyprázdniSa()
+- zoznámSa(s: Človek)
+- zomri()
+- naroďSa(d: Dátum)
+- podajRuku()
+- kráčaj()
+- bež()
+
+Vymyslieť sa ich dá veľa. Presne podľa toho, čo akýkoľvek človek dokáže robiť.
+
 ### Definovanie triedy
 
 ### Objekty danej triedy
