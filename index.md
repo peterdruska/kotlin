@@ -1077,7 +1077,7 @@ Tento zápis:
 Person(val name: String, var age: Int)
 ```
 
-je to, čo je dôležité. Sú to vlastnosti `name`, `age` danej triedy, ktoré pomáhajú lepšie rozpoznať konkrétneho človeka (objekt). Preto Adama vytvorime teraz takto:
+je to, čo je dôležité. Sú to vlastnosti `name`, `age` danej triedy, ktoré pomáhajú lepšie rozpoznať konkrétneho človeka (objekt). Preto Adama vytvoríme teraz takto:
 
 ```kotlin
 val adam = Person("Adam", 27)
@@ -1086,6 +1086,36 @@ adam.greet("Eva")
 ```
 
 Do vlastnosti `name` sme týmto vložili textovú (`String`) hodnotu `Adam` a do vlastnosti `age` celočíselnú (`Int`) hodnotu `27`. Meno je nemenné, preto ho definujeme vyhradeným slovom `val` pre konštantu a vek sa mení každý rok, preto ho definujeme vyhradeným slovom `var` pre premennú.
+
+Povedzme, že Ábel chce vedieť rok narodenia svojho otca Adama. Definujeme preto novú metódu `getYearOfBirth()`:
+
+```kotlin
+class Person(val name: String, var age: Int) {
+    fun speak() {
+        println("Hello!")
+    }
+    
+    fun greet(name: String) {
+        println("Hello $name!")
+    }
+    
+    fun getYearOfBirth(): Int {
+        return 2017 - age
+    }
+}
+```
+
+Vek následne zistíme takto:
+
+```kotlin
+val adam = Person("Adam", 27)
+adam.speak()
+adam.greet("Eva")
+val yearOfBirth = person.getYearOfBirth() // uloženie roku narodenia uložíme do konštanty
+println(yearOfBirth) // hodnotu vypíšeme
+```
+
+Teraz program vypíše rok narodenia Adama, ak je rok 2017 a on má v tom roku 27 rokov.
 
 ### Dedičnosť
 
