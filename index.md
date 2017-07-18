@@ -1002,6 +1002,53 @@ class Person() {
 
 Je to veľmi jednoduché. Najprv ide vyhradené slovo `class`, za ktorým nasleduje vlastné meno triedy `Person`. To volíme my, dávame mu veľké písmeno, lebo tak sme sa dohodli, aby sa ľahšie odlišovalo od názov premenných a konštánt, ktoré sa píšu s malými začiatočnými písmenami. Za menom idú (zatiaľ) prádzne okrúhle zátvorky `()` a za nimi blok uzavretý v zložených zátvorkách `{}`.
 
+Zatiaľ sme žiadneho človeka nevytvorili. Definovali sme si len triedu a jej správanie sa k okoliu. Dajme život prvému človekovi nášho programu:
+
+```kotlin
+val adam = Person()
+```
+
+Vznikol tak človek triedy `Person`, ktorého konštanta nesie meno `adam`. S týmto človekom nie je moc zábavy. Preto všeobecnej triede skúsme pridať pár metód. To sú vlastne funkcie, ktoré sú uzavreté do nejakej triedy:
+
+```Kotlin
+class Person() {
+    fun speak() {
+        println("Hello!")
+    }
+}
+```
+
+Teraz vie `adam` rozprávať. Síce trochu obmedzenie, ale vie:
+
+```kotlin
+val adam = Person()
+adam.speak() // Vypíše text implementovaný v metóde speak()
+```
+
+Povedzme, že je slušné Evu pozdraviť, tak definujme metódu na pozdravenie konkrétneho človeka:
+
+```Kotlin
+class Person() {
+    fun speak() {
+        println("Hello!")
+    }
+    
+    fun greet(name: String) {
+        println("Hello $name!")
+    }
+}
+```
+
+Následne pozdrav vyvoláme takto:
+
+```kotlin
+val adam = Person()
+adam.speak()
+adam.greet("Eva") // Adam pozdraví Evu
+```
+
+
+
 ### Objekty danej triedy
 
 ### Vlastnosti
