@@ -1127,7 +1127,7 @@ Rozšírme preto triedu `Person` tak, aby sme mohli vytvoriť ďalšie triedy, k
 
 ```kotlin
 open class Person(open val name: String, open var age: Int) {
-    …
+    // …
 }
 ```
 
@@ -1153,7 +1153,7 @@ Teraz vytvorme triedu `Student`, ktorá bude potomkom triedy `Person`:
 
 ```kotlin
 class Student(override val name: String, override var age: Int, val studentID: Long): Person(name, age) {
-    …
+    // …
 }
 ```
 
@@ -1321,7 +1321,13 @@ fun main(args: Array<String>) {
 
 ### Abstraktná trieda
 
-Pozornému oku neušla jedna vec. Že sme vytvárali len objekty tried `Student` a `Employee`. Nevytvorili sme žiaden objekt triedy `Person`. To naznačuje, že tá trieda nebude ani v budúcnosti použitá, lebo nám ide hlavne o jej potomkov. V takom prípade triedu `Person` môžeme definovať ako **abstraktnú**.
+Pozornému oku neušla jedna vec. Že sme vytvárali len objekty tried `Student` a `Employee`. Nevytvorili sme žiaden objekt triedy `Person`. To naznačuje, že tá trieda nebude ani v budúcnosti použitá, lebo nám ide hlavne o jej potomkov. V takom prípade triedu `Person` môžeme definovať ako **abstraktnú**. Iba miesto klauzuly `open` použijeme `asbtract` (tá je automaticky aj `open`):
+
+```kotlin
+abstract class Person(open val name: String, open var age: Int) {
+    // …
+}
+```
 
 ### Rozhranie `interface`
 
