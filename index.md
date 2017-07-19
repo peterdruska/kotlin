@@ -1149,6 +1149,16 @@ open class Person(open val name: String, open var age: Int) {
 }
 ```
 
+Teraz vytvorme triedu `Student`, ktorá bude potomkom triedy `Person`:
+
+```kotlin
+class Student(override val name: String, override var age: Int, val studentID: Long): Person(name, age) {
+    …
+}
+```
+
+Takáto trieda sa už neoznačuje `open`, ale vo svojich parametroch uvádza tie isté vlastnosti, ako s[ v rodičovskej triede s klauzulou `override`, ktorá označuje, že daná vlastnosť sa bude dediť z rodičovskej triedy a prepisovať v triede potomka. Plus pridáva novú vlastnosť označenú parametrom `val studentID: Long`. To, že trieda `Student` je potomkom triedy `Person` určíme tak, že za definovanie mena a vlastností triedy pridáme dvojbodku, za ktorou nasleduje meno rodičovskej triedy s uvedením vlastností, ktoré sú predmetom dedenia.
+
 ### Abstraktná trieda
 
 ### Rozhranie `interface`
