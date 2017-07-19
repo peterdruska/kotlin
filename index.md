@@ -1179,7 +1179,7 @@ open class Person(open val name: String, open var age: Int) {
 }
 ```
 
-A následne v triede `Student` prepísať uvedením klauzulu `override` a implementovať iné správanie:
+A následne v triede `Student` prepísať uvedením klauzuly `override` a implementovať iné správanie:
 
 ```kotlin
 class Student(override val name: String, override var age: Int, val studentID: Long): Person(name, age) {
