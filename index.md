@@ -1159,7 +1159,47 @@ class Student(override val name: String, override var age: Int, val studentID: L
 
 Takáto trieda sa už neoznačuje `open`, ale vo svojich parametroch uvádza tie isté vlastnosti, ako s[ v rodičovskej triede s klauzulou `override`, ktorá označuje, že daná vlastnosť sa bude dediť z rodičovskej triedy a prepisovať v triede potomka. Plus pridáva novú vlastnosť označenú parametrom `val studentID: Long`. To, že trieda `Student` je potomkom triedy `Person` určíme tak, že za definovanie mena a vlastností triedy pridáme dvojbodku, za ktorou nasleduje meno rodičovskej triedy s uvedením vlastností, ktoré sú predmetom dedenia.
 
+#### Finta fň
+
+Teraz môžeme urobiť fintu, ktorá robí z dedičnosti mocný nástroj programátora. Prepíšme aj metódy `speak()` a `greet()`. Najprv ich v rodičovskej triede `Person` musíme označiť klauzulou `open`:
+
+```kotlin
+open class Person(open val name: String, open var age: Int) {
+    open fun speak() {
+        println("Hello!")
+    }
+    
+    open fun greet(name: String) {
+        println("Hello $name!")
+    }
+    
+    fun getYearOfBirth(): Int {
+        return 2017 - age
+    }
+}
+```
+
+A následne v triede `Student` prepísať uvedením klauzulu `override` a implementovať iné správanie:
+
+```kotlin
+class Student(override val name: String, override var age: Int, val studentID: Long): Person(name, age) {
+    override fun speak() {
+        println("Hi there, I'm a student!")
+    }
+
+    override fun greet(name: String) {
+        println("Howdy, $name")
+    }
+}
+```
+
+Stačí, ak v IntelliJ IDEA napíšeme meno metódy, ktorú ideme prepísať a program to automaticky doplní so všetkým, čo treba.
+
+![Override Method](screencasts/override.gif)
+
 ### Abstraktná trieda
+
+Použitie objektov triedy Person nie je, preto môže byť abstraktnou.
 
 ### Rozhranie `interface`
 
