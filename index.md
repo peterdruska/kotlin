@@ -1321,13 +1321,24 @@ fun main(args: Array<String>) {
 
 ### Abstraktná trieda
 
-Pozornému oku neušla jedna vec. Že sme vytvárali len objekty tried `Student` a `Employee`. Nevytvorili sme žiaden objekt triedy `Person`. To naznačuje, že tá trieda nebude ani v budúcnosti použitá, lebo nám ide hlavne o jej potomkov. V takom prípade triedu `Person` môžeme definovať ako **abstraktnú**. Iba miesto klauzuly `open` použijeme `asbtract` (tá je automaticky aj `open`):
+Pozornému oku neušla jedna vec. Že sme vytvárali len objekty tried `Student` a `Employee`. Nevytvorili sme žiaden objekt triedy `Person`. To naznačuje, že tá trieda nebude ani v budúcnosti použitá na vytvortenie konkrétnych objektov, lebo nám ide hlavne o jej potomkov. V takom prípade triedu `Person` môžeme definovať ako **abstraktnú**. Iba miesto klauzuly `open` použijeme klauzulu `asbtract` (tá je automaticky aj `open`):
 
 ```kotlin
 abstract class Person(open val name: String, open var age: Int) {
     // …
 }
 ```
+
+Tým môžeme urobiť ešte jednu vec. A síce prehlásiť niektoré metódy za abstraktné, ak bude ich použitie (implementácia) iná v každej triede potomka. Napríklad metdóda `speak()` je iná v triede `Student` a iná v triede `Employee`. Preto v abstraktnej triede `Person` ju tiež definujeme ako abstraktnú:
+
+```kotlin
+abstract class Person(open val name: String, open var age: Int) {
+    abstract fun speak()
+    // …
+}
+```
+
+Ostatné veci ostanú zachované, ako boli uvedené skôr.
 
 ### Rozhranie `interface`
 
