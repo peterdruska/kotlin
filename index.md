@@ -1237,6 +1237,48 @@ class Employee(override val name: String, override var age: Int): Person(name, a
 }
 ```
 
+Všetky tri triedy pohromade pripravené na použitie vo funkcii `main`:
+
+```kotlin
+open class Person(open val name: String, open var age: Int) {
+    open fun speak() {
+        println("Hello!")
+    }
+    
+    open fun greet(name: String) {
+        println("Hello $name!")
+    }
+    
+    fun getYearOfBirth(): Int {
+        return 2017 - age
+    }
+}
+
+class Student(override val name: String, override var age: Int, val studentID: Long): Person(name, age) {
+    fun isIntelligent(): Boolean {
+        return true
+    }
+
+    override fun speak() {
+        println("Hi there, I'm a student!")
+    }
+
+    override fun greet(name: String) {
+        println("Howdy, $name")
+    }
+}
+
+class Employee(override val name: String, override var age: Int): Person(name, age) {
+    fun receivePayment() {
+        println("Payment received.")
+    }
+
+    override fun speak() {
+        println("Hi, I'm an employee!")
+    }
+}
+```
+
 ### Abstraktná trieda
 
 Použitie objektov triedy Person nie je, preto môže byť abstraktnou.
