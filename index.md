@@ -1338,7 +1338,7 @@ abstract class Person(open val name: String, open var age: Int) {
 }
 ```
 
-Ostatné veci ostanú zachované, ako boli uvedené skôr.
+Ostatné veci ostanú zachované rovnako, ako boli uvedené skôr.
 
 ### Rozhranie `interface`
 
