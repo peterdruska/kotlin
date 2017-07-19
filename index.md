@@ -1197,6 +1197,46 @@ Stačí, ak v IntelliJ IDEA napíšeme meno metódy, ktorú ideme prepísať a p
 
 ![Override Method](screencasts/override.gif)
 
+Do triedy `Student` môžeme pridať aj nové metódy, ktoré rodičovská trieda neimplementuje:
+
+```kotlin
+fun isIntelligent(): Boolean {
+    return true
+}
+```
+
+Celá trieda bude vo výsledku vyzerať takto:
+
+```kotlin
+class Student(override val name: String, override var age: Int, val studentID: Long): Person(name, age) {
+    fun isIntelligent(): Boolean {
+        return true
+    }
+
+    override fun speak() {
+        println("Hi there, I'm a student!")
+    }
+
+    override fun greet(name: String) {
+        println("Howdy, $name")
+    }
+}
+```
+
+Vytvorme teraz triedu `Employee`, ktorá bude tiež dediť z triedy `Person` a bude implementovať aj jednu novú metódu:
+
+```kotlin
+class Employee(override val name: String, override var age: Int): Person(name, age) {
+    fun receivePayment() {
+        println("Payment received.")
+    }
+
+    override fun speak() {
+        println("Hi, I'm an employee!")
+    }
+}
+```
+
 ### Abstraktná trieda
 
 Použitie objektov triedy Person nie je, preto môže byť abstraktnou.
