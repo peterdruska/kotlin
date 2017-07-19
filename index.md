@@ -1121,6 +1121,8 @@ Teraz program vypíše rok narodenia Adama, ak je rok 2017 a on má v tom roku 2
 
 ### Dedičnosť
 
+Čo by to bol za svet, keby triedy po sebe nededili? Dieťa dedí vlastnosti po rodičoch, dokonca aj niektoré spôsoby (metódy) správania. Dedičnosť sa nemusí viazať len na živé veci. Napríklad **trieda štvorec** dedí po triede **geometrický tvar** vlastnosť `pocetStran` alebo metódu `vypočítajObsah()`, ktorá však má inú implementáciu (inak funguje pre štvorec a inak pre trojuholník).
+
 ### Abstraktná trieda
 
 ### Rozhranie `interface`
