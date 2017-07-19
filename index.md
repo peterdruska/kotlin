@@ -1321,7 +1321,7 @@ fun main(args: Array<String>) {
 
 ### Abstraktná trieda
 
-Použitie objektov triedy Person nie je, preto môže byť abstraktnou.
+Pozornému oku neušla jedna vec. Že sme vytvárali len objekty tried `Student` a `Employee`. Nevytvorili sme žiaden objekt triedy `Person`. To naznačuje, že tá trieda nebude ani v budúcnosti použitá, lebo nám ide hlavne o jej potomkov. V takom prípade triedu `Person` môžeme definovať ako **abstraktnú**.
 
 ### Rozhranie `interface`
 
