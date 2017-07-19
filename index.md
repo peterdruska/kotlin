@@ -1121,7 +1121,33 @@ Teraz program vypíše rok narodenia Adama, ak je rok 2017 a on má v tom roku 2
 
 ### Dedičnosť
 
-Čo by to bol za svet, keby triedy po sebe nededili? Dieťa dedí vlastnosti po rodičoch, dokonca aj niektoré spôsoby (metódy) správania. Dedičnosť sa nemusí viazať len na živé veci. Napríklad **trieda štvorec** dedí po triede **geometrický tvar** vlastnosť `pocetStran` alebo metódu `vypočítajObsah()`, ktorá však má inú implementáciu (inak funguje pre štvorec a inak pre trojuholník).
+Čo by to bol za svet, keby triedy po sebe nededili? Dieťa dedí vlastnosti po rodičoch, dokonca aj niektoré spôsoby (metódy) správania. Dedičnosť sa nemusí viazať len na živé veci. Napríklad **trieda štvorec** dedí po triede **geometrický tvar** vlastnosť `početStrán` alebo metódu `vypočítajObsah()`, ktorá však má inú implementáciu (inak funguje pre štvorec a inak pre trojuholník).
+
+Rozšírme preto triedu `Person` tak, aby sme mohli vytvoriť ďalšie triedy, ktoré po nej budú dediť:
+
+```kotlin
+open class Person(open val name: String, open var age: Int) {
+    …
+}
+```
+
+Všimnime si, že pred vyhradené slovo `class` sme pridali vyhradené slovo `open`, ktoré označuje triedu, z ktorej budeme vytvárať potomkov. Rovnako aj vlastnosti, ktoré chceme, aby potomkovia dedili, označíme klauzulou `open`. Celá trieda teraz vyzerá takto:
+
+```kotlin
+open class Person(open val name: String, open var age: Int) {
+    fun speak() {
+        println("Hello!")
+    }
+    
+    fun greet(name: String) {
+        println("Hello $name!")
+    }
+    
+    fun getYearOfBirth(): Int {
+        return 2017 - age
+    }
+}
+```
 
 ### Abstraktná trieda
 
