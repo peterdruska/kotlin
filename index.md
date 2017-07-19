@@ -1279,6 +1279,46 @@ class Employee(override val name: String, override var age: Int): Person(name, a
 }
 ```
 
+#### Vytvorenie objektov tried potomkov
+
+Máme definovanú rodičovskú triedu `Person` a dve triedy ako jej potomkov: `Student` a `Employee`. Použime ich teraz vo funkcii `main`.
+
+Najprv vytvoríme študenta:
+
+```kotlin
+val student = Student("John", 25, 16416464)
+student.speak()
+student.greet("Marry")
+println(student.isIntelligent())
+```
+
+Bude sa volať John, má 25 rokov a študentské ID je 16416464. Následne voláme metódy `speak()`, aby hovoril a `greet("Marry")`, aby pozdravil Marry. Nakoniec vypíšeme, či je študent inteligentný.
+
+Vytvorme teraz zamestnanca:
+
+```kotlin
+val employee = Employee("Marry", 32)
+employee.speak()
+employee.receivePayment()
+```
+
+Je to žena, volá sa Marry a má 32 rokov. Najprv jej dáme slovo `speak()` a potom prijme od nás, ako zamestnávateľa, platbu `receivePayment()`.
+
+Celá funkcia `main`:
+
+```kotlin
+fun main(args: Array<String>) {
+    val student = Student("John", 25, 16416464)
+    student.speak()
+    student.greet("Marry")
+    println(student.isIntelligent())
+
+    val employee = Employee("Marry", 32)
+    employee.speak()
+    employee.receivePayment()
+}
+```
+
 ### Abstraktná trieda
 
 Použitie objektov triedy Person nie je, preto môže byť abstraktnou.
