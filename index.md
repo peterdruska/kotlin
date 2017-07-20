@@ -1342,6 +1342,30 @@ Ostatné veci ostanú zachované rovnako, ako boli uvedené skôr.
 
 ### Rozhranie `interface`
 
+`Interface` môžeme chápať ako sadu vlastností a metód, ktoré sú určené na implementáciu triedou, ktorá je definovaná v tomto rozhraní. Majme napríklad rozhranie, ktoré nazveme, že je **šoférovateľné** (ang. **Driveable**):
+
+```kotlin
+interface Driveable {
+    fun drive() // abstraktná metód
+}
+```
+
+Rozhranie `Driveable` definuje jedinú metódu `drive()`, ktorá určuje, či niečo dokáže jazdiť. **Ale čo je to niečo?** To niečo bude trieda, o ktorej chceme prehlásiť, že jej objekty budú schopné jazdiť. Napríklad autá, motorky, bicykle, …:
+
+```kotlin
+class Car(val color: Color): Driveable {
+    override fun build() {
+        println("Built a shiny car.")
+    }
+}
+
+class Motorcycle(val color: Color): Driveable {
+    override fun drive() {
+        println("Driving motorcycle…")
+    }
+}
+```
+
 ### Trieda vymenovaného typu `enum`
 
 ### X
