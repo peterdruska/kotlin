@@ -1418,6 +1418,22 @@ Alebo vybrané slová po Z:
 
 A podobne.
 
+V jazyku Kotlin sa trieda vymenovaného typu označuje klauzulou `enum`:
+
+```kotlin
+enum class Color() {
+    RED, GREEN, BLUE
+}
+```
+
+Do vnútra potom vymenujeme jednoltivé hodnoty. Použitie je potom nasledovné:
+
+```kotlin
+fun main(args: Array<String>) {
+    val green = Color.GREEN
+}
+```
+
 ## Zdroje
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
