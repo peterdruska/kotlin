@@ -1354,8 +1354,8 @@ Rozhranie `Driveable` definuje jedinú metódu `drive()`, ktorá určuje, či ni
 
 ```kotlin
 class Car(): Driveable {
-    override fun build() {
-        println("Built a shiny car.")
+    override fun drive() {
+        println("Driving car…")
     }
 }
 
