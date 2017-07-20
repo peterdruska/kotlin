@@ -1378,6 +1378,8 @@ fun main(args: Array<String>) {
 }
 ```
 
+Rozhraní sa dá vymyslieť moc. Záleží od programu a jeho účelu.
+
 ### Trieda vymenovaného typu `enum`
 
 Trieda vymenovaného typu, to je napríklad semafór:
