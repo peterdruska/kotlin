@@ -1434,6 +1434,8 @@ fun main(args: Array<String>) {
 }
 ```
 
+## Nastavovače a dávače (Setters & getters)
+
 ## Zdroje
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
