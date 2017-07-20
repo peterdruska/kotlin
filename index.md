@@ -1380,6 +1380,42 @@ fun main(args: Array<String>) {
 
 ### Trieda vymenovaného typu `enum`
 
+Trieda vymenovaného typu, to je napríklad semafór:
+
+- červená,
+- oranžová,
+- zelená.
+
+Alebo základné rodinné vzťahy:
+
+- mama,
+- otec,
+- dcéra,
+- syn,
+- sestra,
+- brat.
+
+Alebo základné farby:
+
+- červená,
+- oranžová,
+- žltá,
+- zelená,
+- modrá,
+- fialová.
+
+Alebo vybrané slová po Z:
+
+- jazyk,
+- nazývať,
+- ozývať,
+- prezývať,
+- vyzývať,
+- pozývať,
+- vzývať.
+
+A podobne.
+
 ### X
 
 …
