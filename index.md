@@ -1350,7 +1350,7 @@ interface Driveable {
 }
 ```
 
-Rozhranie `Driveable` definuje jedinú metódu `drive()`, ktorá určuje, či niečo dokáže jazdiť. **Ale čo je to niečo?** To niečo bude trieda, o ktorej chceme prehlásiť, že jej objekty budú schopné jazdiť. Napríklad autá, motorky, bicykle, …:
+Rozhranie `Driveable` definuje jedinú metódu `drive()`, ktorá určuje, či niečo dokáže jazdiť. **Ale čo je to niečo?** To niečo bude trieda, o ktorej chceme prehlásiť, že jej objekty budú schopné jazdiť. Napríklad autá, motorky, bicykle, … Triedy potom definujeme tak, ako keby dedili z inej triedy cez dvojbodku a názov rozhrania:
 
 ```kotlin
 class Car(val color: Color): Driveable {
@@ -1365,6 +1365,8 @@ class Motorcycle(val color: Color): Driveable {
     }
 }
 ```
+
+Následne **musíme** implementovať metódu `drive()` pochádzajúcu z rozhrania `Driveable`, lebo samotné rozhranie to nerobí. Ono iba definuje vlastnosti a metódy, ktoré je nutné implementovať, aby šoférovateľné objekty boli skutočne aj šoférovateľné.
 
 ### Trieda vymenovaného typu `enum`
 
