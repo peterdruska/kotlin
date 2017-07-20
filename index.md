@@ -1418,7 +1418,7 @@ Alebo vybrané slová po Z:
 
 A podobne.
 
-### Zdroje
+## Zdroje
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
 - [Cvičenia z jazyka Kotlin](http://exercism.io/languages/kotlin/about), také trochu ťažšie
