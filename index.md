@@ -1346,7 +1346,7 @@ Ostatné veci ostanú zachované rovnako, ako boli uvedené skôr.
 
 ```kotlin
 interface Driveable {
-    fun drive() // abstraktná metód
+    fun drive() // abstraktná metóda
 }
 ```
 
@@ -1366,7 +1366,7 @@ class Motorcycle(): Driveable {
 }
 ```
 
-Následne **musíme** implementovať metódu `drive()` pochádzajúcu z rozhrania `Driveable`, lebo samotné rozhranie to nerobí. Ono iba definuje vlastnosti a metódy, ktoré je nutné implementovať, aby šoférovateľné objekty boli skutočne aj šoférovateľné:
+Následne **musíme** implementovať (samozrejme použijeme kaluzulu `override`) metódu `drive()` pochádzajúcu z rozhrania `Driveable`, lebo samotné rozhranie to nerobí. Ono iba definuje vlastnosti a metódy, ktoré je nutné implementovať, aby šoférovateľné objekty boli skutočne aj šoférovateľné:
 
 ```kotlin
 fun main(args: Array<String>) {
