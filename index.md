@@ -1482,6 +1482,15 @@ animal.age = -2
 
 ## Viditeľnosť
 
+Tu si poznačíme len základnú vedomosť pre štyri klauzuly určujúce viditeľnosť vlastností alebo metód v rámci úzkeho alebo širšieho okolia triedy:
+
+- `private var age: Int = 0` – viditeľná len v rámci triedy, kde je definovaná.
+- `protected var name = "Sam"` – viditeľná v rámci triedy a jej podtried.
+- `internal val isDangerous = true` – viditeľná v rámci celého modulu.
+- `public` – akákoľvek trieda, metóda alebo vlastnosť má k nej prístup.
+
+Základné nastavenie pre vlastnosti a metdy je `public`, pokiaľ žiadnu z týchto klauzúl viditeľnosti neuvedieme.
+
 ## Generické typy
 
 ## Zdroje
