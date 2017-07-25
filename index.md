@@ -1436,7 +1436,49 @@ fun main(args: Array<String>) {
 
 ## Nastavovače a dávače (Setters & getters)
 
+V jazyku Kotlin sa nastavovače a dávače správajú automaticky. Sú však jazyka, kde nie, kde ich treba implementovať manuálne. Pre ukážku uvedieme, ako sa to dá v jazyku Kotlin.
+
+Majme triedu `Animal`, ktorej chceme nastaviť vlastnosť udržiavajúcu vek:
+
+```kotlin
+class Animal {
+    var age: Int = 0
+}
+```
+
+Keď však chceme zmeniť správanie tejto vlastnosti pri jej priradení alebo prečítaní, implementujeme tzv. nastavovače (ang. setters) a dávače (ang. getters).
+
+```kotlin
+class Animal {
+    var age: Int = 0
+    get() {
+        return field * 2
+    }
+    set(value) {
+        if (value >= 0) {
+            field = value
+        } else {
+            println("Below 0")
+        }
+    }
+}
+```
+
+Časť `get()` vráti dvojnásobok tej hodnoty, ktorú vložíme do vlastnosti `age` (reprezentovaná konštantou `field`):
+
+```kotlin
+fun main(args: Array<String>) {
+    val animal = Animal()
+    animal.age = 8
+    println(animal.age) // vypíše 16
+}
+```
+
+Časť `set(value)` nastaví vlastnosti `age` (reprezentovaná konštantou `field`) hodnotu, ktorú sme do nej vložili pri použití a pokiaľ je jej hodnota menšia ako nula, vypíšeme túto informáciu bez priradenia hodnoty (ostane v nej uložená nula).
+
 ## Viditeľnosť
+
+## Generické typy
 
 ## Zdroje
 
