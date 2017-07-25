@@ -1474,7 +1474,11 @@ fun main(args: Array<String>) {
 }
 ```
 
-Časť `set(value)` nastaví vlastnosti `age` (reprezentovaná konštantou `field`) hodnotu, ktorú sme do nej vložili pri použití a pokiaľ je jej hodnota menšia ako nula, vypíšeme túto informáciu bez priradenia hodnoty (ostane v nej uložená nula).
+Časť `set(value)` nastaví vlastnosti `age` (reprezentovaná konštantou `field`) hodnotu, ktorú sme do nej vložili pri použití a pokiaľ je jej hodnota menšia ako nula, vypíšeme túto informáciu bez priradenia hodnoty (ostane v nej uložená nula). Teraz treba skúsiť priradiť vek menší ako nula, čo sa stane:
+
+```kotlin
+animal.age = -2
+```
 
 ## Viditeľnosť
 
