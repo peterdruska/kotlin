@@ -1504,7 +1504,7 @@ Ešte nám treba spomenúť, ako urobiť používateľský vstup, ak chceme my n
 ```kotlin
 fun main(args: Array<String>) {
     var userInput: String?
-    print("Zadaj hocičo: ")
+    print("Zadaj hocičo: ") // print() čaká na tom istom riadku, neposunie sa na nový riadok, ako println()
     userInput = readLine()
     println("Zadal si: $userInput")
 }
