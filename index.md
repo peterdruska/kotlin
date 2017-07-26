@@ -1510,7 +1510,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-Ten otáznik na konci riadku `var userInput: String?` nie je náhoda. Hovorí o tom, že do premennej `userInput` môže byť zadaná aj tzv. `null` hodnota, čiže nič.
+Ten otáznik na konci riadku `var userInput: String?` nie je náhoda. Hovorí o tom, že do premennej `userInput` môže byť zadaná okrem reťazca aj tzv. `null` hodnota, čiže nič.
 
 ## Zdroje
 
