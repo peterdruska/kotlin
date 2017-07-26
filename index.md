@@ -1491,7 +1491,7 @@ Tu si poznačíme len základnú vedomosť pre štyri klauzuly určujúce vidite
 
 Základné nastavenie pre vlastnosti a metdy je `public`, pokiaľ žiadnu z týchto klauzúl viditeľnosti neuvedieme.
 
-## Používateľský vstup a výstup
+## Používateľský vstup a výstup (I/O)
 
 Výstup vypočítaných údajov alebo reťazcov už vieme robiť pomocou funkcie:
 
