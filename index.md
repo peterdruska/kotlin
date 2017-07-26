@@ -1491,6 +1491,27 @@ Tu si poznačíme len základnú vedomosť pre štyri klauzuly určujúce vidite
 
 Základné nastavenie pre vlastnosti a metdy je `public`, pokiaľ žiadnu z týchto klauzúl viditeľnosti neuvedieme.
 
+## Používateľský vstup a výstup
+
+Výstup vypočítaných údajov alebo reťazcov už vieme robiť pomocou funkcie:
+
+```kotlin
+println("Výstup do konzoly.")
+```
+
+Ešte nám treba spomenúť, ako urobiť používateľský vstup, ak chceme my niečo zadať počas behu programu. To sa robí pomocou funkcie `readLine()` takto:
+
+```kotlin
+fun main(args: Array<String>) {
+    var userInput: String?
+    print("Zadaj hocičo: ")
+    userInput = readLine()
+    println("Zadal si: $userInput")
+}
+```
+
+Ten otáznik na konci riadku `var userInput: String?` nie je náhoda. Hovorí o tom, že do premennej `userInput` môže byť zadaná aj tzv. `null` hodnota, čiže nič.
+
 ## Zdroje
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
