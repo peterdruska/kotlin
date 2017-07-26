@@ -1496,7 +1496,13 @@ Základné nastavenie pre vlastnosti a metdy je `public`, pokiaľ žiadnu z týc
 Výstup vypočítaných údajov alebo reťazcov už vieme robiť pomocou funkcie:
 
 ```kotlin
-println("Výstup do konzoly.")
+println("Výstup do konzoly.") // skočí na nový riadok
+```
+
+Alebo
+
+```kotlin
+print("Výstup do konzoly.") // Ostane v tom istom riadku
 ```
 
 Ešte nám treba spomenúť, ako urobiť používateľský vstup, ak chceme my niečo zadať počas behu programu. To sa robí pomocou funkcie `readLine()` takto:
