@@ -1491,10 +1491,6 @@ Tu si poznačíme len základnú vedomosť pre štyri klauzuly určujúce vidite
 
 Základné nastavenie pre vlastnosti a metdy je `public`, pokiaľ žiadnu z týchto klauzúl viditeľnosti neuvedieme.
 
-## Generické typy
-
-Aj napriek tomu, že ich názov znie divne, že [generické](http://slovnik.juls.savba.sk/?w=generický&s=exact&c=Lc58&d=kssj4&d=psp&d=sssj&d=scs&d=sss&d=peciar&d=ma&d=hssjV&d=bernolak&d=obce&d=priezviska&d=un&d=locutio&d=pskcs&d=psken&d=noundb&ie=utf-8&oe=utf-8#), slúžia hlavne na to, aby sme nemuseli písať viackrát ten istý kus kódu. Zjednodušujú veci.
-
 ## Zdroje
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
