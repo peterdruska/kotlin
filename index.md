@@ -1566,7 +1566,7 @@ countryToInhabitants.putIfAbsent("France", 67_000_000)
 Hodnotu pre daný kľúč, ktorý sa už v mape nachádza, môžeme aj prepísať:
 
 ```kotlin
-countryToInhabitants.put("USA", 320_000_000)
+countryToInhabitants.put("USA", 320_000_000) // Hodnota pre USA sa zmení na novú
 ```
 
 ## Zdroje
