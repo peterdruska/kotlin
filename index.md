@@ -1524,7 +1524,7 @@ Mapy sú super. V jazyku Kotlin nejde o atlas sveta alebo navigáciu, ale o štr
 
 [![Dictionary](/images/Dictionary.jpg)](images/Dictionary.jpg)
 
-Je to rovnaké, ako napríklad v prekladovom slovníku. Kľúčom je hľadné slovo, napríklad **apple** a hodnotou k nemu prislúchajúcou je **jablko**. Mapy sú v podstate dvojice navzájom k sebe prislúchajúce.
+Je to rovnaké, ako napríklad v prekladovom anglicko–slovenskom slovníku. Kľúčom je hľadné anglické slovo, napríklad **apple** a prislúchajúcou hodnotou k nemu je preklad **jablko**.
 
 ## Zdroje
 
