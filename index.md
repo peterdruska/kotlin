@@ -1545,7 +1545,29 @@ val countryToInhabitants = mutableMapOf(
 )
 ```
 
-Pomocou funkcie `mutableMapOf()` máme zabezpečené, že do mapy `countryToInhabitants` môžeme nové dvojice pridávať alebo ich odoberať.
+Pomocou funkcie `mutableMapOf()` máme zabezpečené, že do mapy `countryToInhabitants` môžeme nové dvojice pridávať
+
+```kotlin
+countryToInhabitants.put("Australia", 23_000_000)
+```
+
+alebo ich odoberať
+
+```kotlin
+countryToInhabitants.remove("Antarctica")
+```
+
+Všetko sa to deje na základe kľúčov. Ak chceme pridať novú dvojicu do mapy iba vtedy, ak v nej nie je, tak zavoláme:
+
+```kotlin
+countryToInhabitants.putIfAbsent("France", 67_000_000)
+```
+
+Hodnotu pre daný kľúč, ktorý sa už v mape nachádza, môžeme aj prepísať:
+
+```kotlin
+countryToInhabitants.put("USA", 320_000_000)
+```
 
 ## Zdroje
 
