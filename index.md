@@ -1569,6 +1569,32 @@ Hodnotu pre daný kľúč, ktorý sa už v mape nachádza, môžeme aj prepísa�
 countryToInhabitants.put("USA", 320_000_000) // Hodnota pre USA sa zmení na novú
 ```
 
+Takto zistíme, či daný kľúč už v mape je:
+
+```kotlin
+countryToInhabitants.contains("Australia")
+```
+
+Odpoveďou je buď `true`, alebo `false`. Alebo môžeme zistiť, či mapa obsahuje konkrétnu hodnotu:
+
+```kotlin
+countryToInhabitants.containsValue(20_000_000)
+```
+
+Odpoveďou je taktie6 buď `true`, alebo `false`. Hodnotu pre konkrétny kľúč získame takto:
+
+```kotlin
+countryToInhabitants.get("Germany")
+```
+
+Ak chceme zabrániť tomu, že daný kľúč v mape nie je, tak to urobíme takto:
+
+```kotlin
+countryToInhabitants.getOrDefault("United Kingdom", 0)
+```
+
+Funkcia `getOrDefault()` zabezpečí, že pokiaľ sa daný kľúč v mape nenachádza, tak vráti hodnotu `0`.
+
 ## Zdroje
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
