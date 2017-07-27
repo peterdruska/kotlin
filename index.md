@@ -1595,6 +1595,18 @@ countryToInhabitants.getOrDefault("United Kingdom", 0)
 
 Funkcia `getOrDefault()` zabezpečí, že pokiaľ sa daný kľúč v mape nenachádza, tak vráti hodnotu `0`.
 
+### Cyklus na výpis všetkých dvojích kľúč–hodnota v mape
+
+Je to pomerne jednoduché, vypísať všetky hodnoty mapy:
+
+```kotlin
+countryToInhabitants.entries.forEach {
+    println("${it.key} has ${it.value} inhabitants.")
+}
+```
+
+Konštanta `it` zodpovedá jednej dvojici v každom opakovaní cyklu. Ak chceme pristúpiť k jej kľúču, zavoláme `it.key`, ak chceme vypísať jej hodnotu, tak `it.value`. Vypisujeme ich rovno do reťazca funkcie `println()`, preto používame záspi s dolárom. Zložené zátvorky sú tam na to, že konštanta nie ja samostatne uvedená, ale cez bodku pristupujeme k jej vlastnostiam: `${it.key}`.
+
 ## Zdroje
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
