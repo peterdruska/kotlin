@@ -1520,7 +1520,11 @@ Ten otáznik na konci riadku `var userInput: String?` nie je náhoda. Hovorí o 
 
 ## Mapy
 
-…
+Mapy sú super. V jazyku Kotlin nejde o atlas sveta alebo navigáciu, ale o štruktúru dát, ktorá sa trochu podobá na zoznamy. Ale len trochu. V skutočnosti sa jedná o veľmi užitočnú štruktúru dvojíc **kľúč–hodnota**.
+
+[![Dictionary](/images/Dictionary.jpg)](images/Dictionary.jpg)
+
+Je to rovnaké, ako napríklad v prekladovom slovníku. Kľúčom je hľadné slovo, napríklad **apple** a hodnotou k nemu prislúchajúcou je **jablko**. Mapy sú v podstate dvojice navzájom k sebe prislúchajúce.
 
 ## Zdroje
 
