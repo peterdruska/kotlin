@@ -1611,4 +1611,4 @@ Konštanta `it` zodpovedá jednej dvojici v každom opakovaní cyklu. Ak chceme 
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
 - [Cvičenia z jazyka Kotlin](http://exercism.io/languages/kotlin/about), také trochu ťažšie
-- [Udemy Kotlin kurz](https://www.udemy.com/kotlin-course)
+- [Udemy Kotlin kurz](https://www.udemy.com/kotlin-course), [môj certifikát](https://www.udemy.com/certificate/UC-DNJZ8FYY/)
