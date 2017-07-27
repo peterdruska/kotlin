@@ -1526,6 +1526,27 @@ Mapy sú super. V jazyku Kotlin nejde o atlas sveta alebo navigáciu, ale o štr
 
 Je to rovnaké, ako napríklad v prekladovom anglicko–slovenskom slovníku. Kľúčom je hľadné anglické slovo, napríklad **apple** a prislúchajúcou hodnotou k nemu je preklad **jablko**.
 
+Vytvorme mapu mien:
+
+```kotlin
+val namesToAges = mapOf(
+    "Peter" to 32,
+    "Roger" to 42
+)
+```
+
+Definovali sme konštantu `namesToAges`, ktorá obsahuje mapu dvojích **meno–vek**. Peter má 32 rokov, Roger má 42. Túto mapu sme vytvorili pomocou funkcie `mapOf()`. Takú mapu neviem zmeniť. Nevieme do nej pridať nového človeka. Preto definujeme meniteľnú mapu krajín s počtom obyvateľov:
+
+```kotlin
+val countryToInhabitants = mutableMapOf(
+    "Germany" to 80_000_000,
+    "Slovakia" to 5_000_000,
+    "USA" to 300_000_000
+)
+```
+
+Pomocou funkcie `mutableMapOf()` máme zabezpečené, že do mapy `countryToInhabitants` môžeme nové dvojice pridávať alebo ich odoberať.
+
 ## Zdroje
 
 - [Referenčná príručka jazyka Kotlin](https://kotlinlang.org/docs/reference)
