@@ -709,6 +709,10 @@ names.removeAt(0) // Odstránime prvok na indexe 0
 println(names)
 ```
 
+## Mapy
+
+…
+
 ## Cykly
 
 Cyklus, to je niečo, čo sa neustále opakuje. Napríklad východ Slnka sa opakuje každý deň. Rovnako aj jeho západ.
