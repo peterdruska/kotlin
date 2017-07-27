@@ -709,10 +709,6 @@ names.removeAt(0) // Odstránime prvok na indexe 0
 println(names)
 ```
 
-## Mapy
-
-…
-
 ## Cykly
 
 Cyklus, to je niečo, čo sa neustále opakuje. Napríklad východ Slnka sa opakuje každý deň. Rovnako aj jeho západ.
@@ -1521,6 +1517,10 @@ fun main(args: Array<String>) {
 ```
 
 Ten otáznik na konci riadku `var userInput: String?` nie je náhoda. Hovorí o tom, že do premennej `userInput` môže byť zadaná okrem reťazca aj tzv. `null` hodnota, čiže nič. Teraz stačí spustiť program a sledovať v konzole, čo od nás chce a podľa toho postupovať.
+
+## Mapy
+
+…
 
 ## Zdroje
 
