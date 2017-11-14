@@ -40,9 +40,11 @@ Teraz sa otvorí obrazovka projektu *Hello World*.
 
 [![Project](images/Project.png)](images/Project.png)
 
-Teraz je dôležité nastaviť jazyk Kotlin v projekte pomocou **Tools > Kotlin > Configure Kotlin in Project > All modules containing Kotlin files**. Zvyšok ponecháme tak, ako je a potvrdíme **OK**.
+Teraz je dôležité nastaviť jazyk Kotlin v projekte pomocou **Tools > Kotlin > Configure Kotlin in Project > All modules containing Kotlin files**. Zvyšok ponecháme tak, ako je a potvrdíme **OK**. Tu je dôležité poznamenať, že okno môže vyzerať inak, pokiaľ v projekte ešte žiaden `*.kt` súbor nie je.
 
 [![Configure Kotlin](images/ConfigureKotlin.png)](kotlin/images/ConfigureKotlin.png)
+
+Táto konfigurácia sa dá urobiť kedykoľvek, pokiaľ je nutná.
 
 ### Štruktúra projektu
 
