@@ -726,7 +726,15 @@ Rovnako sú cykly dôležité aj v programovaní. V jazyku Kotlin rozlišujeme d
 
 ### `For` cyklus
 
-Keď chceme niečo zopakovať toľkokrát, koľko určíme. Často sa používa na prechádzanie zoznamov:
+Keď chceme niečo zopakovať toľkokrát, koľko určíme.
+
+```kotlin
+for (index in 1..365) {
+    println(index)
+}
+```
+
+Často sa používa na prechádzanie zoznamov:
 
 ```kotlin
 val names = mutableListOf("Veronika", "Matej", "Jakub")
