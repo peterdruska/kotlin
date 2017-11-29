@@ -621,12 +621,6 @@ Takto sa dá vypísať prvý prvok:
 println(fib.first()) // Vypíše prvý prvok
 ```
 
-Vymeniť hodnotu na konkrétnom mieste je jednoduché a robí sa takto:
-
-```kotlin
-fib[0] = 4 // Miesto pôvodnej 1 na nultom mieste bude teraz číslo 4
-```
-
 Dá sa rozhodnúť, či je zoznam prázdny volaním funkcie `isEmpty()` nad daným zoznamom:
 
 ```kotlin
@@ -665,6 +659,12 @@ Povedzme, že chceme zoznam `fib` doplniť o ďalšie prvky. Urobiť to nemôže
 
 ```kotlin
 val fib = mutableListOf(1, 1, 2, 3, 5, 8, 13, 21)
+```
+
+Teraz vieme **vymeniť hodnotu na konkrétnom mieste**:
+
+```kotlin
+fib[0] = 4 // Miesto pôvodnej 1 na nultom mieste bude teraz číslo 4
 ```
 
 Teraz dokážeme do zoznamu **pridať nové prvky** pomocou funkcie `add()`:
