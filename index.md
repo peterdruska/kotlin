@@ -1534,8 +1534,8 @@ Ako používateľský vstup často potrebujeme načítať číslo. Napríklad ce
 
 ```kotlin
 fun main(args: Array<String>) {
-    var usersAge: Int?
-    print("Zadaj číslo: ") // print() čaká na tom istom riadku, neposunie sa na nový riadok, ako println()
+    var usersAge: Int?
+    print("Zadaj číslo: ") // print() čaká na tom istom riadku, neposunie sa na nový riadok, ako println()
     usersAge = readLine()!!.toInt()
     println("Zadal si číslo: $usersAge")
 }
@@ -1545,8 +1545,8 @@ Podobné to je s reálnym číslom:
 
 ```kotlin
 fun main(args: Array<String>) {
-    var usersHeight: Double?
-    print("Zadaj svoju výšku v metroch: ") // print() čaká na tom istom riadku, neposunie sa na nový riadok, ako println()
+    var usersHeight: Double?
+    print("Zadaj svoju výšku v metroch: ") // print() čaká na tom istom riadku, neposunie sa na nový riadok, ako println()
     usersAge = readLine()!!.toDouble()
     println("Tvoja výška je: $usersAge m")
 }
