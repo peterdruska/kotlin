@@ -1528,6 +1528,30 @@ fun main(args: Array<String>) {
 
 Ten otáznik na konci riadku `var userInput: String?` nie je náhoda. Hovorí o tom, že do premennej `userInput` môže byť zadaná okrem reťazca aj tzv. `null` hodnota, čiže nič. Teraz stačí spustiť program a sledovať v konzole, čo od nás chce a podľa toho postupovať.
 
+### Načítanie čísla z klávesnice
+
+Ako používateľský vstup často potrebujeme načítať číslo. Napríklad celé číslo načítame takto:
+
+```kotlin
+fun main(args: Array<String>) {
+    var usersAge: Int?
+    print("Zadaj číslo: ") // print() čaká na tom istom riadku, neposunie sa na nový riadok, ako println()
+    usersAge = readLine()!!.toInt()
+    println("Zadal si číslo: $usersAge")
+}
+```
+
+Podobné to je s reálnym číslom:
+
+```kotlin
+fun main(args: Array<String>) {
+    var usersHeight: Double?
+    print("Zadaj svoju výšku v metroch: ") // print() čaká na tom istom riadku, neposunie sa na nový riadok, ako println()
+    usersAge = readLine()!!.toDouble()
+    println("Tvoja výška je: $usersAge m")
+}
+```
+
 ## Mapy
 
 Mapy sú super. V jazyku Kotlin nejde o atlas sveta alebo navigáciu, ale o štruktúru dát, ktorá sa trochu podobá na zoznamy. Ale len trochu. V skutočnosti sa jedná o veľmi užitočnú štruktúru dvojíc **kľúč–hodnota**.
