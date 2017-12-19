@@ -1020,7 +1020,13 @@ Zatiaľ sme žiadneho človeka nevytvorili. Definovali sme si len triedu a jej s
 val adam = Person()
 ```
 
-Vznikol tak človek triedy `Person`, ktorého konštanta nesie meno `adam`.
+Vznikol tak človek triedy `Person`, ktorého konštanta nesie meno `adam`. Funkcia `main` vyzerá teraz takto:
+
+```kotlin
+fun main(args: Array<String>) {
+    val adam = Person()
+}
+```
 
 ### Metódy
 
