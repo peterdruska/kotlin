@@ -1003,7 +1003,7 @@ Vymyslieť sa ich dá veľa. Presne podľa toho, čo akýkoľvek človek dokáž
 
 Programovanie ide ďalej, dáva nám moc čarovnej paličky Heňa Hrnčiara na to, aby sme mohli vytvárať triedy, ktoré v reálnom svete v podstate ani neexistujú rovnako, ako tie, čo existujú. Väčšinou však budeme kopírovať reálny svet.
 
-Vytvorme teraz triedu s názvom `Person`:
+Vytvorme teraz v novom súbore, ktorý nazveme `Person.kt` triedu s názvom `Person`:
 
 ```Kotlin
 class Person() {
@@ -1014,7 +1014,7 @@ Je to veľmi jednoduché. Najprv ide vyhradené slovo `class`, za ktorým nasled
 
 ### Objekty danej triedy
 
-Zatiaľ sme žiadneho človeka nevytvorili. Definovali sme si len triedu a jej správanie sa k okoliu. Dajme život prvému človekovi nášho programu:
+Zatiaľ sme žiadneho človeka nevytvorili. Definovali sme si len triedu a jej správanie sa k okoliu. Dajme život prvému človekovi nášho programu. V hlavnej funkcii `main()` vytvorme nový objekt `adam` triedy `Person`:
 
 ```kotlin
 val adam = Person()
