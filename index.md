@@ -1116,7 +1116,7 @@ class Person(val name: String, var age: Int) {
     }
     
     fun getYearOfBirth(): Int {
-        return 2017 - age
+        return 2018 - age
     }
 }
 ```
@@ -1127,7 +1127,7 @@ Vek následne zistíme takto:
 val adam = Person("Adam", 27)
 adam.speak()
 adam.greet("Eva")
-val yearOfBirth = person.getYearOfBirth() // uloženie roku narodenia uložíme do konštanty
+val yearOfBirth = adam.getYearOfBirth() // uloženie roku narodenia uložíme do konštanty
 println(yearOfBirth) // hodnotu vypíšeme
 ```
 
