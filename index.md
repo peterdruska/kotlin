@@ -312,7 +312,7 @@ Okrem hodnoty `false` môže tento typ nadobúdať už len hodnotu `true`. Môž
 
 ### Logika vecí
 
-Typ `Booblean` sa používa pri logickom uvažovaní, rozhodovaní. Napríklad skúsme tento program:
+Typ `Boolean` sa používa pri logickom uvažovaní, rozhodovaní. Napríklad skúsme tento program:
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -388,7 +388,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-Typ `Booblean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
+Typ `Boolean` je oničom, pokiaľ sa bližšie nepozrieme na podmienky.
 
 ## Podmienky `if`
 
